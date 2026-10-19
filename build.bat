@@ -1,0 +1,10 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+where node >nul 2>nul
+if errorlevel 1 (
+  echo Node.js is required to verify and assemble this static gallery.
+  exit /b 1
+)
+node scripts\build.mjs
+exit /b %ERRORLEVEL%

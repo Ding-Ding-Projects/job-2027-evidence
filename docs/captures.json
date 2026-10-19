@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "scope": "Documentation companion only; partial Cantonese localization; no complete layout, keyboard, or screen-reader acceptance.",
+  "sourceState": "21520775aa46ef70751e24de7a6abab60ec1ab76",
+  "builtArtifactSha256": "0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
+  "viewport": { "width": 1106, "height": 744 },
+  "scalePercent": 150,
+  "images": [
+    { "path": "captures/documentation-task-guide-2152077.png", "state": "task-guide", "theme": "dark", "language": "English", "capturedAt": "2026-10-19T15:37:47.829Z", "sha256": "c17ca0f35b11e270a2daf80e8888d54a96798dedd6ceac8f07c60f9564583b22", "width": 1659, "height": 1116 },
+    { "path": "captures/documentation-worker-article-2152077.png", "state": "worker-article", "theme": "dark", "language": "English", "capturedAt": "2026-10-19T15:37:47.929Z", "sha256": "b8ae49252fbabda271b3904c87fb0afe49c82969b1e05bef8aad77ee782eaee3", "width": 1659, "height": 1116 },
+    { "path": "captures/documentation-cantonese-light-2152077.png", "state": "cantonese-light", "theme": "light", "language": "Cantonese", "capturedAt": "2026-10-19T15:37:48.008Z", "sha256": "6a38cf9156964e79c7fd03661f5f140b3cc38b992ed61128f6023b2668ca95cd", "width": 1659, "height": 1116 }
+  ],
+  "excluded": [
+    { "class": "terminal-fixture PNGs", "reason": "Outside the approved documentation capture inventory." },
+    { "class": "header, worker, and raw build PNGs", "reason": "Outside the approved documentation capture inventory." },
+    { "class": "supplied setup-browser image", "reason": "Contains private URLs and bookmarks." },
+    { "class": "generated announcement images", "reason": "Private announcement material, not product evidence." }
+  ]
+}
