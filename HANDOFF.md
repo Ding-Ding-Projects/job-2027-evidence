@@ -4,17 +4,16 @@
 
 This repository is a public gallery for three reviewed documentation companion images. The source application remains private.
 
-## Included evidence
+## Published evidence
 
-The gallery includes the task guide in dark English, a scheduled worker article in dark English, and the task guide in light Cantonese. Each image is copied unchanged, bound to source state `21520775aa46ef70751e24de7a6abab60ec1ab76` and artifact digest `0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e`, and paired with its validated UTC timestamp and image SHA-256.
+The gallery is live at https://ding-ding-projects.github.io/job-2027-evidence/ and the public source repository is https://github.com/Ding-Ding-Projects/job-2027-evidence. The local `main` and public `main` both point to `1fb4ce971c40de7d626512d4314ab8e9f936fa46`. GitHub Pages reads from `main:/docs` and reports `built`.
 
-## Verification state
+Unauthenticated requests returned HTTP 200 for the home page, provenance page, and all three PNGs. The PNG byte counts and SHA-256 values match the reviewed files: task guide 89,900 bytes (`c17ca0f35b11e270a2daf80e8888d54a96798dedd6ceac8f07c60f9564583b22`), worker article 212,127 bytes (`b8ae49252fbabda271b3904c87fb0afe49c82969b1e05bef8aad77ee782eaee3`), and Cantonese light task guide 67,907 bytes (`6a38cf9156964e79c7fd03661f5f140b3cc38b992ed61128f6023b2668ca95cd`). The About homepage field reads back exactly as `https://ding-ding-projects.github.io/job-2027-evidence/`.
 
-Source-file hashes and dimensions were checked. The pixels were reviewed for private URL, path, credential, or account-data exposure. Full layout, keyboard, screen-reader, productive-workspace, native application, and worker runtime acceptance are not established. The Cantonese sample is partial.
+## Evidence limits
 
-## Remaining actions
+The images are bound to source state `21520775aa46ef70751e24de7a6abab60ec1ab76` and artifact digest `0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e`. Cantonese coverage is partial. Complete layout, keyboard, screen-reader, productive-workspace, native application, and worker runtime acceptance are not established. Broader interface design, required feature coverage, complete documentation and wiki inventory, and companion package acceptance are also unverified.
 
-- Publish and read back the GitHub Pages deployment.
-- Verify unauthenticated delivery of the home page, provenance page, and each PNG byte-for-byte.
-- Read back the exact About homepage value.
-- The source project owner separately owns the source README backlink.
+## Remaining action
+
+The source project owner separately owns adding the deployed gallery URL to the source README and reading that link back from the integrated source repository.
