@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+node scripts/check-vocabulary.mjs
+exec node scripts/check-publication-language.mjs --outgoing --remote-name "$1" --remote-location "$2"

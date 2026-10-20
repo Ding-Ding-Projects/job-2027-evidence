@@ -12,3 +12,9 @@
 - [ ] Cantonese coverage is partial.
 - [ ] Productive-workspace, native application, and worker runtime acceptance are outside this gallery's evidence.
 - [ ] Broader interface design, required feature coverage, complete documentation and wiki inventory, and companion package acceptance remain unverified.
+
+## Publication enforcement, 2026-10-20
+
+- [x] Add local commit/push entrypoints, trusted-scanner workflow and externally protected input configuration.
+- [ ] Verify the complete tracked source, local negative/positive behavior, real hosted run and required branch protection.
+- [x] Implement and independently review outgoing-ancestor checks, including removed intermediate content and filenames; actual repository enforcement is verified separately.

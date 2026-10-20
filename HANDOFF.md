@@ -1,3 +1,13 @@
+# Public evidence handoff
+
+The public gallery retains its three approved documentation-companion images, original provenance and deployed address. This change adds staged-source and destination-aware outgoing-history checks, a pinned trusted CI entrypoint, and externally protected rule input. The source application and twelve newer private workflow images are not copied here.
+
+The shared implementation passed actual negative and repaired local-hook fixtures, 36 outgoing-history checks, 13 synthetic complete-source scans and 33 CI entrypoint cases. Candidate code is read as data. Every newly transmitted commit tree is examined; a clean final tree cannot hide a removed intermediate file. Manual CI execution is explicitly current-tree-only and uses a separate check name. These results do not establish the actual gallery workflow or branch protection until their stored results are read back.
+
+Protected runtime input has been provisioned, and only its presence was verified. Next: build through the exact root entrypoint, commit and push reviewed source, verify the event-history check, configure the supported required check and read back stored protection. Preserve the three image hashes, live content and original historical records.
+
+## Historical published-evidence record
+
 # Handoff
 
 ## Scope
