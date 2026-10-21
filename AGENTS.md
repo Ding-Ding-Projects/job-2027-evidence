@@ -16,9 +16,22 @@ keep their literal spelling. The single documented public-safe exception is name
 canonical instructions; do not infer any other.
 
 Scan any text bound for a public surface against that vocabulary before publishing it. A
-reviewer cannot tell a correct release note from a leaking one by reading it, so the scan is
-a step, not a habit.
+reviewer cannot tell a correct release note from a leaking one by reading it, so the scan is a
+step, not a habit.
 
 ## Scope
 
-This repository contains a public evidence gallery for three approved documentation companion images. Keep the source application private. Do not add unreviewed images, private URLs, local paths, credentials, or personal data. Preserve the exact image bytes and safe provenance records.
+This public repository contains a static evidence gallery for reviewed, source-bound synthetic
+interface captures. The source application remains private. Add only original PNG files with
+an exact producer receipt, a verified source and image digest, a human pixel review, and a
+privacy review. Keep captions precise about what a visible state shows and what it does not
+prove. Do not publish source code, local machine paths, private links, provider settings,
+credentials, real account data, raw receipts, or unreviewed captures.
+
+## Build and publication
+
+Use the root `build.bat` entrypoint to validate image hashes and assemble `docs/` into `dist/`.
+The root `build-installer.bat` correctly reports that this static gallery has no installable
+product. GitHub Pages serves `main:/docs`; keep that deployment source and the exact About
+homepage URL unchanged unless the owner directs otherwise. Verify the live page and image
+routes after publication.

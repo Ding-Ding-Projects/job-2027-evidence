@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A practical guide to browsing, filtering, and interpreting the Job 2027 evidence gallery.">
+  <meta name="color-scheme" content="light dark">
+  <title>Gallery guide · Job 2027 evidence</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to guide</a>
+  <header class="site-header compact-header"><div class="header-inner">
+    <p class="eyebrow">Practical guide</p><h1>Using the evidence gallery</h1>
+    <p class="lede">Find a visual state, compare its context, and read what its evidence does and does not establish.</p>
+    <div class="build-provenance" id="build-provenance" role="status" aria-live="polite">Version and updated-at details are unavailable until build metadata is read.</div>
+  </div></header>
+  <main class="guide" id="main-content">
+    <nav class="page-nav" aria-label="Evidence pages"><a href="./">Evidence</a><a href="provenance.html">Provenance and limits</a><a aria-current="page" href="wiki.html">Gallery guide</a><button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" title="Select to use dark appearance">Dark appearance</button></nav>
+    <section class="guide-panel" aria-labelledby="find-state-title">
+      <h2 id="find-state-title">Find a state</h2>
+      <ol>
+        <li>Open the evidence gallery and expand <strong>Search and filter evidence</strong>.</li>
+        <li>Choose a category, appearance, language mode, or viewport. These controls filter the gallery cards and the provenance register.</li>
+        <li>Use plain text search for a state name or caption. The count reports how many evidence records remain visible.</li>
+        <li>Clear filters to return to the full collection. The search, selected filters, collapsed state, and appearance preference are stored only in this browser.</li>
+      </ol>
+      <p>Examples below change the gallery URL and apply filters to the published evidence collection. They do not execute or verify the source application.</p>
+      <div class="filter-actions" aria-label="Filter examples">
+        <button class="button" type="button" data-gallery-example data-category="profile" data-theme="dark">Show dark profile states</button>
+        <button class="button" type="button" data-gallery-example data-category="product-label" data-language="Bilingual">Show bilingual wording state</button>
+        <button class="button" type="button" data-gallery-example data-category="original-files">Show earlier file-save states</button>
+      </div>
+    </section>
+    <section class="guide-panel" aria-labelledby="read-record-title">
+      <h2 id="read-record-title">Read an evidence record</h2>
+      <p>Each card links to its original PNG. Open <strong>Capture details and limits</strong> for the source revision, source image digest, output dimensions, viewport, timestamp basis, and image hash. A timestamp without a timezone is labeled as such. An unavailable timestamp stays unavailable.</p>
+      <p>Read the visible limitation before drawing a conclusion. A screenshot captures pixels from one recorded state. Separate interaction receipts support the checks named on this page, and any failed or unverified result remains visible in the evidence notes.</p>
+      <p>The <a href="provenance.html">provenance register</a> shows the same inventory in a searchable table. The source repository remains private; the public records include source hashes but no private repository URL or machine-local path.</p>
+    </section>
+    <section class="guide-panel" aria-labelledby="known-limits-title">
+      <h2 id="known-limits-title">Current findings</h2>
+      <ul>
+        <li>The profile run recorded 18 layout tuples and separately failed the browser-title persistence check.</li>
+        <li>Four terminology views were captured before a startup failure; the images do not prove persistence.</li>
+        <li>The paused API record and visible ready state could not be associated conclusively.</li>
+        <li>Three full-page settings captures were withheld because provider-configuration values could not be independently verified as safe.</li>
+      </ul>
+      <p>All published records use synthetic examples. Production account behavior, production TLS, physical device use, installer behavior, release delivery, and full required-feature acceptance remain unverified.</p>
+    </section>
+    <section class="guide-panel" aria-labelledby="reading-progress-title">
+      <h2 id="reading-progress-title">Keep a private reading checklist</h2>
+      <p>The checklist below is stored in this browser only and never sent to the gallery.</p>
+      <div class="guide-checklist">
+        <label><input type="checkbox" data-guide-progress="state"> I found a state by category or search.</label>
+        <label><input type="checkbox" data-guide-progress="limits"> I read the state limits before drawing a conclusion.</label>
+        <label><input type="checkbox" data-guide-progress="source"> I checked the source revision and image hash.</label>
+      </div>
+      <p id="guide-progress-status" role="status" aria-live="polite">No reading steps marked complete.</p>
+    </section>
+    <p><a href="./">Return to the evidence gallery</a>.</p>
+  </main>
+  <footer><p>Job 2027 evidence gallery · <a href="https://github.com/Ding-Ding-Projects/job-2027-evidence">Public source and records</a></p></footer>
+</body>
+</html>
