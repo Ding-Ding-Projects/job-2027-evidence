@@ -1,19 +1,714 @@
 {
   "version": 1,
-  "scope": "Documentation companion only; partial Cantonese localization; no complete layout, keyboard, or screen-reader acceptance.",
+  "scope": "Reviewed original documentation images, the pre-plane synthetic workspace set, and the later color-plane preview set. All images remain byte-for-byte originals.",
   "sourceState": "21520775aa46ef70751e24de7a6abab60ec1ab76",
   "builtArtifactSha256": "0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
-  "viewport": { "width": 1106, "height": 744 },
+  "viewport": {
+    "width": 1106,
+    "height": 744
+  },
   "scalePercent": 150,
   "images": [
-    { "path": "captures/documentation-task-guide-2152077.png", "state": "task-guide", "theme": "dark", "language": "English", "capturedAt": "2026-10-19T15:37:47.829Z", "sha256": "c17ca0f35b11e270a2daf80e8888d54a96798dedd6ceac8f07c60f9564583b22", "width": 1659, "height": 1116 },
-    { "path": "captures/documentation-worker-article-2152077.png", "state": "worker-article", "theme": "dark", "language": "English", "capturedAt": "2026-10-19T15:37:47.929Z", "sha256": "b8ae49252fbabda271b3904c87fb0afe49c82969b1e05bef8aad77ee782eaee3", "width": 1659, "height": 1116 },
-    { "path": "captures/documentation-cantonese-light-2152077.png", "state": "cantonese-light", "theme": "light", "language": "Cantonese", "capturedAt": "2026-10-19T15:37:48.008Z", "sha256": "6a38cf9156964e79c7fd03661f5f140b3cc38b992ed61128f6023b2668ca95cd", "width": 1659, "height": 1116 }
+    {
+      "path": "captures/documentation-task-guide-2152077.png",
+      "state": "task-guide",
+      "theme": "dark",
+      "language": "English",
+      "capturedAt": "2026-10-19T15:37:47.829Z",
+      "sha256": "c17ca0f35b11e270a2daf80e8888d54a96798dedd6ceac8f07c60f9564583b22",
+      "width": 1659,
+      "height": 1116,
+      "caption": "Dark English documentation task guide with a visitor checklist; checklist items do not execute or verify the application.",
+      "deviceScaleFactor": 1.5,
+      "viewportWidth": 1106,
+      "viewportHeight": 744,
+      "artifactId": "sha256:0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
+      "limits": [
+        "Historical documentation companion only.",
+        "Partial Cantonese localization; complete layout, keyboard and screen-reader acceptance are not established."
+      ]
+    },
+    {
+      "path": "captures/documentation-worker-article-2152077.png",
+      "state": "worker-article",
+      "theme": "dark",
+      "language": "English",
+      "capturedAt": "2026-10-19T15:37:47.929Z",
+      "sha256": "b8ae49252fbabda271b3904c87fb0afe49c82969b1e05bef8aad77ee782eaee3",
+      "width": 1659,
+      "height": 1116,
+      "caption": "Dark English documentation article describing scheduled worker controls, confirmation, status refresh and limits.",
+      "deviceScaleFactor": 1.5,
+      "viewportWidth": 1106,
+      "viewportHeight": 744,
+      "artifactId": "sha256:0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
+      "limits": [
+        "Historical documentation companion only.",
+        "Partial Cantonese localization; complete layout, keyboard and screen-reader acceptance are not established."
+      ]
+    },
+    {
+      "path": "captures/documentation-cantonese-light-2152077.png",
+      "state": "cantonese-light",
+      "theme": "light",
+      "language": "Cantonese",
+      "capturedAt": "2026-10-19T15:37:48.008Z",
+      "sha256": "6a38cf9156964e79c7fd03661f5f140b3cc38b992ed61128f6023b2668ca95cd",
+      "width": 1659,
+      "height": 1116,
+      "caption": "Light Cantonese documentation task guide with a visitor checklist; localization is partial.",
+      "deviceScaleFactor": 1.5,
+      "viewportWidth": 1106,
+      "viewportHeight": 744,
+      "artifactId": "sha256:0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
+      "limits": [
+        "Historical documentation companion only.",
+        "Partial Cantonese localization; complete layout, keyboard and screen-reader acceptance are not established."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-original-resumes.png",
+      "state": "Resume library: original selected",
+      "caption": "An isolated preview shows the resume library with a synthetic original selected; the visible selection does not establish an upload.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:13:48.220Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "73bbb8aea27058a4261d2bec7ebe462203a14948c2a7bffa9d01412c4ee097e7",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-resume-revisions.png",
+      "state": "Resume library: revision history",
+      "caption": "An isolated preview shows synthetic resume revision history.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:14:00.223Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "a6ea9bde080dcf8dcf6b50bc476b716bbbb41ebed2ab2842031fa86b2cb46027",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-compare-resume-revisions.png",
+      "state": "Compare resume revisions",
+      "caption": "An isolated preview shows a comparison of synthetic resume revisions.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:14:05.368Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "db5fe4817c683925186db3eadfc556691082ce656a8f08bf256eefdda7ae7e8d",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-confirm-restore.png",
+      "state": "Review a resume restore",
+      "caption": "The confirmation for restoring a synthetic resume revision is visible; this image does not show confirmation.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:14:09.621Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "71d2441547384c5deae107209c3754ba5722c3ea728ab72679bdfa6883cf4edf",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-confirm-activation.png",
+      "state": "Review resume activation",
+      "caption": "The confirmation for activating a synthetic resume is visible; this image does not show confirmation.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:14:14.648Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "5ecea34c12706e009c623a1246a02c7d07c6872437626ef1de70b23fec53a5c7",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-profile-history.png",
+      "state": "Profile history",
+      "caption": "An isolated preview shows the profile workspace and its local history.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:17:27.113Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "b5852d260f214bf6e21d289cb8b11d0a9416b2215c78a5411c6200c1cf635692",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-regex-builder.png",
+      "state": "Build a regular expression",
+      "caption": "The guided expression builder shows a synthetic sample and a draft pattern.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:17:30.123Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "6e60730a8d3d3a4de0ef44a4316328f185610777e5b025c5380e3f3b2c56006b",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-skills-bulk-add.png",
+      "state": "Add skill entries",
+      "caption": "An isolated preview shows synthetic skill entries in the profile editor.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:11:47.051Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "cfc5a4ad7c009955799d16e4c8e54e467f3a900239c4949a15d827ad289c0421",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-skills-regex-filter.png",
+      "state": "Filter skills by a pattern",
+      "caption": "An isolated preview shows the synthetic skill list filtered with a tested pattern.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:11:50.646Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "920086b792181038e77a369a8f359720ce04711bf1248c2ee487e0ffa63a140b",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-skills-sorted-reload.png",
+      "state": "Review saved skill order",
+      "caption": "An isolated preview shows the synthetic skill list after a save and reload.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:12:05.842Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "c2968d49543517b49e08c5f07f18e8756d266d0fa484c628adef4fe6b339093b",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-contextual-help-setting.png",
+      "state": "Set contextual help",
+      "caption": "An isolated preview shows the optional contextual-help setting.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:12:15.536Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "8ee033bf12e598fe1989073ac407b8b55f7286cfa7bbb4f47603b770862541ee",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-field-guidance-open.png",
+      "state": "Open field guidance",
+      "caption": "An isolated preview shows a field explanation opened in the profile editor.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:12:31.428Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "c3b3613b388fffa9f29b5421304d9f31d4e49c1311e839182bf129e3a0e38b74",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-profile-json.png",
+      "state": "Edit profile JSON",
+      "caption": "An isolated preview shows the optional JSON profile editor with synthetic data.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:12:57.800Z",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "deviceScaleFactor": 1,
+      "sha256": "6d584bad629b4900df21498292e9b8b30aab638a395e1dd49dd523bb8fc8bf27",
+      "width": 390,
+      "height": 844,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-profile-editor.png",
+      "state": "Edit a profile",
+      "caption": "An isolated preview shows the profile form with synthetic data and a visible save action.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:23:06.520Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "4b7f8c7608694ee9669a3e1829a0dc5d7a976cc4b8e69b738a2b77fc1399b53b",
+      "width": 1440,
+      "height": 1000,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-profile-editor-narrow.png",
+      "state": "Edit a profile on a narrow screen",
+      "caption": "An isolated narrow preview shows the profile form with synthetic data.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:23:09.930Z",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "deviceScaleFactor": 1,
+      "sha256": "22e28b8ed8d9ab71f66fee4cfbff054c55f78a41ea84489ad4bd2fed33dfdac3",
+      "width": 390,
+      "height": 844,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-palette-bilingual-narrow.png",
+      "state": "Open the bilingual command palette",
+      "caption": "A narrow bilingual preview shows the command palette and synthetic interface text.",
+      "theme": "light",
+      "language": "both",
+      "capturedAt": null,
+      "viewportWidth": 320,
+      "viewportHeight": 800,
+      "deviceScaleFactor": 1,
+      "sha256": "2b95d34eb09ea993064c70c3ec93ab1c2c368aa895638794c29f36f1e4f35624",
+      "width": 320,
+      "height": 800,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-palette-inline-setting.png",
+      "state": "Change an inline setting",
+      "caption": "An isolated preview shows an inline preference editor in the command palette.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": null,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "6fc2d7526fc3e181398cc96b2b1eddf1cc928cfb8cee0af61da4137568887988",
+      "width": 1440,
+      "height": 900,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-palette-desktop.png",
+      "state": "Browse the command palette",
+      "caption": "An isolated preview shows grouped command results.",
+      "theme": "dark",
+      "language": "en",
+      "capturedAt": null,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "23ef9476fdf0b6a9bdc2525be303e51bba5378860370f653b911924a615ff807",
+      "width": 1440,
+      "height": 900,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-color-hsv.png",
+      "state": "Adjust color in light appearance",
+      "caption": "An isolated preview shows the color picker with hue, saturation and brightness controls.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": null,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "02eac2d39a64abe549323831b6303843081b4b0c804001105bfee9ed0f4abf87",
+      "width": 1440,
+      "height": 900,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-color-dark.png",
+      "state": "Adjust color in dark appearance",
+      "caption": "An isolated preview shows the color picker in dark appearance.",
+      "theme": "dark",
+      "language": "en",
+      "capturedAt": null,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "595a952906b4840a7ad6fb7e6d4930321e9cee9904c3840e5acec10e02d7ed01",
+      "width": 1440,
+      "height": 900,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-color-narrow.png",
+      "state": "Adjust color in a narrow layout",
+      "caption": "A narrow preview shows the color picker and its visible actions.",
+      "theme": "light",
+      "language": "both",
+      "capturedAt": null,
+      "viewportWidth": 320,
+      "viewportHeight": 800,
+      "deviceScaleFactor": 1,
+      "sha256": "cba9cbaae736e8d288de86711eedfb32ed766a5b72d398b650d8123e2211a398",
+      "width": 320,
+      "height": 800,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-settings-bilingual.png",
+      "state": "Browse bilingual settings",
+      "caption": "An isolated preview shows settings in English and Cantonese.",
+      "theme": "light",
+      "language": "both",
+      "capturedAt": null,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "f378dc949274b605e7e91e6f2e619e746521b74c208883deb3d79b67b2e9c53f",
+      "width": 1440,
+      "height": 900,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/pre-plane/pre-plane-color-incomplete.png",
+      "state": "Correct an incomplete color",
+      "caption": "An isolated preview shows an incomplete color draft and disabled apply action.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": null,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "7b9ea3550507279fa6300a2774cfbfd3587bce38404148b278a87134cdac2f3b",
+      "width": 1440,
+      "height": 900,
+      "artifactId": "sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04",
+      "limits": [
+        "Synthetic preview data.",
+        "Pre-plane build; it does not show the later two-dimensional color plane.",
+        "A visible state alone does not prove persistence, native input or release behavior."
+      ]
+    },
+    {
+      "path": "captures/color-plane/sv-light-desktop.png",
+      "state": "Color plane in light appearance",
+      "caption": "The color dialog shows a two-dimensional saturation and brightness plane, selection marker, hue spectrum, sliders and apply actions.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:52:50.156Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "bae49841573a1319cb192a757e0d4a694bd4e288ff1090d1069b87d50c69b79b",
+      "width": 1440,
+      "height": 900,
+      "artifactId": "sha256:813a454083076d4df6cbfe2be3d98623f0dc06fb28a48d0e6fcbf1aa003e94ae",
+      "limits": [
+        "Synthetic preview data.",
+        "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
+        "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
+        "Images show specific states and do not prove independent release acceptance."
+      ]
+    },
+    {
+      "path": "captures/color-plane/sv-invalid-desktop.png",
+      "state": "Incomplete color draft",
+      "caption": "An incomplete color draft disables the color plane and Apply action; the hex field is below the captured viewport.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:52:57.725Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "947e479899bb1cd47bebb4776ae5956afb6d4a56901d5c95c0a89b564bdfdcf9",
+      "width": 1440,
+      "height": 900,
+      "artifactId": "sha256:813a454083076d4df6cbfe2be3d98623f0dc06fb28a48d0e6fcbf1aa003e94ae",
+      "limits": [
+        "Synthetic preview data.",
+        "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
+        "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
+        "Images show specific states and do not prove independent release acceptance."
+      ]
+    },
+    {
+      "path": "captures/color-plane/sv-dark-desktop.png",
+      "state": "Color plane in dark appearance",
+      "caption": "The color dialog shows the two-dimensional color plane and controls in dark appearance.",
+      "theme": "dark",
+      "language": "en",
+      "capturedAt": "2026-10-20T23:53:20.278Z",
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "e88f351b9d2db9430642969234a4f491d0a2616a92d785bdfb69cb0f11a5071a",
+      "width": 1440,
+      "height": 900,
+      "artifactId": "sha256:813a454083076d4df6cbfe2be3d98623f0dc06fb28a48d0e6fcbf1aa003e94ae",
+      "limits": [
+        "Synthetic preview data.",
+        "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
+        "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
+        "Images show specific states and do not prove independent release acceptance."
+      ]
+    },
+    {
+      "path": "captures/color-plane/sv-bilingual-narrow.png",
+      "state": "Bilingual color plane on a narrow screen",
+      "caption": "A narrow bilingual view shows the color plane, translated labels and visible Cancel and Apply actions.",
+      "theme": "light",
+      "language": "both",
+      "capturedAt": "2026-10-20T23:53:29.278Z",
+      "viewportWidth": 320,
+      "viewportHeight": 800,
+      "deviceScaleFactor": 1,
+      "sha256": "a3c958fe1ac12f05147e40a6a7293cc3d6c268aeef2201bd936116011fc8115c",
+      "width": 320,
+      "height": 800,
+      "artifactId": "sha256:813a454083076d4df6cbfe2be3d98623f0dc06fb28a48d0e6fcbf1aa003e94ae",
+      "limits": [
+        "Synthetic preview data.",
+        "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
+        "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
+        "Images show specific states and do not prove independent release acceptance."
+      ]
+    }
   ],
   "excluded": [
-    { "class": "terminal-fixture PNGs", "reason": "Outside the approved documentation capture inventory." },
-    { "class": "header, worker, and raw build PNGs", "reason": "Outside the approved documentation capture inventory." },
-    { "class": "supplied setup-browser image", "reason": "Contains private URLs and bookmarks." },
-    { "class": "generated announcement images", "reason": "Private announcement material, not product evidence." }
+    {
+      "class": "terminal-fixture PNGs",
+      "reason": "Outside the approved documentation capture inventory."
+    },
+    {
+      "class": "header, worker, and raw build PNGs",
+      "reason": "Outside the approved documentation capture inventory."
+    },
+    {
+      "class": "supplied setup-browser image",
+      "reason": "Contains private URLs and bookmarks."
+    },
+    {
+      "class": "generated announcement images",
+      "reason": "Private announcement material, not product evidence."
+    }
+  ],
+  "withheldHistorical": [
+    {
+      "id": "workspace-b022de6-jobs-calendar-dark",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-jobs-list-light",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-skills-default-selection",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-skill-item-edit",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-skill-item-delete",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-skills-bulk-edit",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-resume-file-selected",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-saved-document-review",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-appearance-rgb-light",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-guided-settings-dark",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-model-defaults-light",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-b022de6-command-search-narrow",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-a44073e-resume-library-new-original-selected",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-a44073e-resume-library-version-history",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-a44073e-resume-library-comparison",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-a44073e-resume-library-restore-confirmation",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-a44073e-resume-activation-confirmation",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-a44073e-profile-workspace-git-history",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-a44073e-guided-regex-builder",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    },
+    {
+      "id": "workspace-a44073e-profile-editor-saved-light",
+      "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    }
   ]
 }
