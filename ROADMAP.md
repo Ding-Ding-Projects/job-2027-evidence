@@ -2,7 +2,8 @@
 
 ## Publication
 
-- [x] Publish the reviewed gallery on GitHub Pages and verify the live home, provenance page, and all three image byte hashes.
+- [ ] Publish 11 current workspace and account captures with original bytes, inspected pixels, neutral captions, and per-image evidence limits.
+- [ ] Verify the updated live home, provenance page, and all 11 new image routes and byte hashes after the Pages rebuild.
 - [x] Read back the GitHub About homepage field and verify its exact value matches the deployed home URL.
 - [ ] Have the source project owner add the gallery link to the source README and verify it from the source repository after that work is integrated.
 
