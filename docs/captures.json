@@ -1,13 +1,6 @@
 {
-  "version": 1,
-  "scope": "Reviewed original documentation, synthetic workspace, and current synthetic account-flow images. All published images retain their original PNG bytes.",
-  "sourceState": "21520775aa46ef70751e24de7a6abab60ec1ab76",
-  "builtArtifactSha256": "0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
-  "viewport": {
-    "width": 1106,
-    "height": 744
-  },
-  "scalePercent": 150,
+  "version": 2,
+  "scope": "67 reviewed and historical public gallery images. The newly reviewed set contains 23 current-source images plus three earlier source-bound original-file-save images. Three current settings images are withheld for privacy review; see excludedCandidates.",
   "images": [
     {
       "path": "captures/documentation-task-guide-2152077.png",
@@ -26,7 +19,9 @@
       "limits": [
         "Historical documentation companion only.",
         "Partial Cantonese localization; complete layout, keyboard and screen-reader acceptance are not established."
-      ]
+      ],
+      "category": "documentation",
+      "evidenceSet": "historical-documentation"
     },
     {
       "path": "captures/documentation-worker-article-2152077.png",
@@ -45,7 +40,9 @@
       "limits": [
         "Historical documentation companion only.",
         "Partial Cantonese localization; complete layout, keyboard and screen-reader acceptance are not established."
-      ]
+      ],
+      "category": "documentation",
+      "evidenceSet": "historical-documentation"
     },
     {
       "path": "captures/documentation-cantonese-light-2152077.png",
@@ -64,7 +61,9 @@
       "limits": [
         "Historical documentation companion only.",
         "Partial Cantonese localization; complete layout, keyboard and screen-reader acceptance are not established."
-      ]
+      ],
+      "category": "documentation",
+      "evidenceSet": "historical-documentation"
     },
     {
       "path": "captures/pre-plane/pre-plane-original-resumes.png",
@@ -84,7 +83,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-resume-revisions.png",
@@ -104,7 +105,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-compare-resume-revisions.png",
@@ -124,7 +127,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-confirm-restore.png",
@@ -144,7 +149,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-confirm-activation.png",
@@ -164,7 +171,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-profile-history.png",
@@ -184,7 +193,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-regex-builder.png",
@@ -204,7 +215,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-skills-bulk-add.png",
@@ -224,7 +237,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-skills-regex-filter.png",
@@ -244,7 +259,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-skills-sorted-reload.png",
@@ -264,7 +281,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-contextual-help-setting.png",
@@ -284,7 +303,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-field-guidance-open.png",
@@ -304,7 +325,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-profile-json.png",
@@ -324,7 +347,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-profile-editor.png",
@@ -344,7 +369,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-profile-editor-narrow.png",
@@ -364,7 +391,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-palette-bilingual-narrow.png",
@@ -384,7 +413,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-palette-inline-setting.png",
@@ -404,7 +435,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-palette-desktop.png",
@@ -424,7 +457,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-color-hsv.png",
@@ -444,7 +479,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "appearance",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-color-dark.png",
@@ -464,7 +501,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "appearance",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-color-narrow.png",
@@ -484,7 +523,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "appearance",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-settings-bilingual.png",
@@ -504,7 +545,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "profile",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/pre-plane/pre-plane-color-incomplete.png",
@@ -524,7 +567,9 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "category": "appearance",
+      "evidenceSet": "pre-plane"
     },
     {
       "path": "captures/color-plane/sv-light-desktop.png",
@@ -545,7 +590,9 @@
         "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
         "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
         "Images show specific states and do not prove independent release acceptance."
-      ]
+      ],
+      "category": "appearance",
+      "evidenceSet": "color-plane"
     },
     {
       "path": "captures/color-plane/sv-invalid-desktop.png",
@@ -566,7 +613,9 @@
         "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
         "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
         "Images show specific states and do not prove independent release acceptance."
-      ]
+      ],
+      "category": "appearance",
+      "evidenceSet": "color-plane"
     },
     {
       "path": "captures/color-plane/sv-dark-desktop.png",
@@ -587,7 +636,9 @@
         "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
         "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
         "Images show specific states and do not prove independent release acceptance."
-      ]
+      ],
+      "category": "appearance",
+      "evidenceSet": "color-plane"
     },
     {
       "path": "captures/color-plane/sv-bilingual-narrow.png",
@@ -608,7 +659,9 @@
         "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
         "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
         "Images show specific states and do not prove independent release acceptance."
-      ]
+      ],
+      "category": "appearance",
+      "evidenceSet": "color-plane"
     },
     {
       "path": "captures/current/mail-provider-setup-guided.png",
@@ -630,7 +683,9 @@
       "limits": [
         "Synthetic account and mail data only; no provider authorization or delivery is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "mail",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/two-step-sign-in-overview.png",
@@ -652,7 +707,9 @@
       "limits": [
         "Synthetic test state only; no real account data or external operation is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "security",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/authenticator-pairing-hidden.png",
@@ -674,7 +731,9 @@
       "limits": [
         "No pairing value or credential is visible.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "security",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/sign-in-verification-pending.png",
@@ -696,7 +755,9 @@
       "limits": [
         "Synthetic sign-in state only; no real account or verification code is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "security",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/authenticator-active.png",
@@ -718,7 +779,9 @@
       "limits": [
         "No recovery code value or account credential is visible.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "security",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/mail-attachment-review.png",
@@ -740,7 +803,9 @@
       "limits": [
         "Synthetic mail and document content only; no real correspondence or provider action is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "mail",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/mail-narrow-bilingual.png",
@@ -762,7 +827,9 @@
       "limits": [
         "Synthetic account and mailbox state only; no real correspondence is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "mail",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/mail-narrow-light.png",
@@ -784,7 +851,9 @@
       "limits": [
         "Synthetic account and mailbox state only; no real correspondence is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "mail",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/security-narrow-bilingual.png",
@@ -806,7 +875,9 @@
       "limits": [
         "Synthetic test state only; no credential, pairing value, or real account data is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "security",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/run-settings-bilingual-desktop.png",
@@ -828,7 +899,9 @@
       "limits": [
         "Synthetic interface state only; no live process or external operation is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "workspace",
+      "evidenceSet": "previous-workspace-and-account"
     },
     {
       "path": "captures/current/download-limit-detail.png",
@@ -850,7 +923,789 @@
       "limits": [
         "The displayed value belongs to a synthetic test state.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "category": "workspace",
+      "evidenceSet": "previous-workspace-and-account"
+    },
+    {
+      "path": "captures/profile-matrix/profile-320-light-en.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 320 px · light · English",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-10-21T21:56:48.258517+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 320-pixel browser viewport in light appearance and English mode. Displayed records are synthetic.",
+      "alt": "English profile editor at 320 pixels in light appearance, with synthetic records.",
+      "width": 320,
+      "height": 3192,
+      "viewportWidth": 320,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "43bd698e5547e4e9ef01dbf17bec30bd5f47e6cd463f144e29116de1f5de5e6e",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 320 px · light · English profile light English synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-320-light-yue.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 320 px · light · Cantonese",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "light",
+      "language": "Cantonese",
+      "capturedAt": "2026-10-21T21:56:50.954980+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 320-pixel browser viewport in light appearance and Cantonese mode. Displayed records are synthetic.",
+      "alt": "Cantonese profile editor at 320 pixels in light appearance, with synthetic records.",
+      "width": 320,
+      "height": 3168,
+      "viewportWidth": 320,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "36af4cf2229978f5a102a0207730c66b47a0e674bd43be8cbc2a1b3a35d18039",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 320 px · light · Cantonese profile light Cantonese synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-320-light-both.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 320 px · light · Bilingual",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "light",
+      "language": "Bilingual",
+      "capturedAt": "2026-10-21T21:56:53.845942+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 320-pixel browser viewport in light appearance and Bilingual mode. Displayed records are synthetic.",
+      "alt": "Bilingual profile editor at 320 pixels in light appearance, with synthetic records.",
+      "width": 320,
+      "height": 3551,
+      "viewportWidth": 320,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "8e0147d145389842360c0a80baad59afe792ffb542fcd92d41b2be8df9d8ef69",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 320 px · light · Bilingual profile light Bilingual synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-320-dark-en.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 320 px · dark · English",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "dark",
+      "language": "English",
+      "capturedAt": "2026-10-21T21:56:56.620142+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 320-pixel browser viewport in dark appearance and English mode. Displayed records are synthetic.",
+      "alt": "English profile editor at 320 pixels in dark appearance, with synthetic records.",
+      "width": 320,
+      "height": 3192,
+      "viewportWidth": 320,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "009ff5bc9a6f10ff465176464d8f8329f781b0a5e9820ff1ed5bb26e3a0fd147",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 320 px · dark · English profile dark English synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-320-dark-yue.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 320 px · dark · Cantonese",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "dark",
+      "language": "Cantonese",
+      "capturedAt": "2026-10-21T21:56:59.535461+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 320-pixel browser viewport in dark appearance and Cantonese mode. Displayed records are synthetic.",
+      "alt": "Cantonese profile editor at 320 pixels in dark appearance, with synthetic records.",
+      "width": 320,
+      "height": 3168,
+      "viewportWidth": 320,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "bc106a0929ca263bfd57ceb5b7aa378614f10ce8680cfa853644a73c6e4a0a02",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 320 px · dark · Cantonese profile dark Cantonese synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-320-dark-both.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 320 px · dark · Bilingual",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "dark",
+      "language": "Bilingual",
+      "capturedAt": "2026-10-21T21:57:03.507186+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 320-pixel browser viewport in dark appearance and Bilingual mode. Displayed records are synthetic.",
+      "alt": "Bilingual profile editor at 320 pixels in dark appearance, with synthetic records.",
+      "width": 320,
+      "height": 3551,
+      "viewportWidth": 320,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "752bcf1a33c153023a7b274cfc722b3b78eccf03755b9bb4d160e957ca90e59a",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 320 px · dark · Bilingual profile dark Bilingual synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-390-light-en.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 390 px · light · English",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-10-21T21:57:06.483525+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 390-pixel browser viewport in light appearance and English mode. Displayed records are synthetic.",
+      "alt": "English profile editor at 390 pixels in light appearance, with synthetic records.",
+      "width": 390,
+      "height": 3029,
+      "viewportWidth": 390,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "66ea241bfdafdb537b2f08c4e8a601ba20b840e1766f3ed5e6de5b3e684277fc",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 390 px · light · English profile light English synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-390-light-yue.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 390 px · light · Cantonese",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "light",
+      "language": "Cantonese",
+      "capturedAt": "2026-10-21T21:57:09.579377+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 390-pixel browser viewport in light appearance and Cantonese mode. Displayed records are synthetic.",
+      "alt": "Cantonese profile editor at 390 pixels in light appearance, with synthetic records.",
+      "width": 390,
+      "height": 2912,
+      "viewportWidth": 390,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "04f1f9066bae208b04e1ad9170ec1562e93cb588e1248ac61777f927944ae615",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 390 px · light · Cantonese profile light Cantonese synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-390-light-both.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 390 px · light · Bilingual",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "light",
+      "language": "Bilingual",
+      "capturedAt": "2026-10-21T21:57:12.595741+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 390-pixel browser viewport in light appearance and Bilingual mode. Displayed records are synthetic.",
+      "alt": "Bilingual profile editor at 390 pixels in light appearance, with synthetic records.",
+      "width": 390,
+      "height": 3231,
+      "viewportWidth": 390,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "5562ea4a5b8c53731c587afb0ddc86d9f2eb643b3ee6d8b9ace1ba60913a8a0c",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 390 px · light · Bilingual profile light Bilingual synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-390-dark-en.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 390 px · dark · English",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "dark",
+      "language": "English",
+      "capturedAt": "2026-10-21T21:57:15.610780+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 390-pixel browser viewport in dark appearance and English mode. Displayed records are synthetic.",
+      "alt": "English profile editor at 390 pixels in dark appearance, with synthetic records.",
+      "width": 390,
+      "height": 3029,
+      "viewportWidth": 390,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "1471b8e635a6313abef6af81dc722f8593c872ae9f4e5d838b5e25b0d1b03682",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 390 px · dark · English profile dark English synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-390-dark-yue.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 390 px · dark · Cantonese",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "dark",
+      "language": "Cantonese",
+      "capturedAt": "2026-10-21T21:57:18.924397+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 390-pixel browser viewport in dark appearance and Cantonese mode. Displayed records are synthetic.",
+      "alt": "Cantonese profile editor at 390 pixels in dark appearance, with synthetic records.",
+      "width": 390,
+      "height": 2912,
+      "viewportWidth": 390,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "1612f2671ec421afd8769a6776b96766ce1e83698731df73a2940b8688499bd0",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 390 px · dark · Cantonese profile dark Cantonese synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-390-dark-both.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 390 px · dark · Bilingual",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "dark",
+      "language": "Bilingual",
+      "capturedAt": "2026-10-21T21:57:22.324554+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 390-pixel browser viewport in dark appearance and Bilingual mode. Displayed records are synthetic.",
+      "alt": "Bilingual profile editor at 390 pixels in dark appearance, with synthetic records.",
+      "width": 390,
+      "height": 3231,
+      "viewportWidth": 390,
+      "viewportHeight": 720,
+      "deviceScaleFactor": 1,
+      "sha256": "628ca6d46f4ecd71e0b6411a9e6c7fa32c78e1178fbe7a930215bfeb44da3233",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 390 px · dark · Bilingual profile dark Bilingual synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-1280-light-en.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 1280 px · light · English",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-10-21T21:57:26.188701+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 1280-pixel browser viewport in light appearance and English mode. Displayed records are synthetic.",
+      "alt": "English profile editor at 1280 pixels in light appearance, with synthetic records.",
+      "width": 1280,
+      "height": 2345,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "3e4eefcb5ff74a2a7e70a159e49414753459cb2bd382fde313e134a27f77adb0",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 1280 px · light · English profile light English synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-1280-light-yue.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 1280 px · light · Cantonese",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "light",
+      "language": "Cantonese",
+      "capturedAt": "2026-10-21T21:57:29.619930+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 1280-pixel browser viewport in light appearance and Cantonese mode. Displayed records are synthetic.",
+      "alt": "Cantonese profile editor at 1280 pixels in light appearance, with synthetic records.",
+      "width": 1280,
+      "height": 2345,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "5cb3d079f086714762f3ec429648e65a5489e9ceed78d73a5408b754aa98f3b7",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 1280 px · light · Cantonese profile light Cantonese synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-1280-light-both.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 1280 px · light · Bilingual",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "light",
+      "language": "Bilingual",
+      "capturedAt": "2026-10-21T21:57:35.026009+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 1280-pixel browser viewport in light appearance and Bilingual mode. Displayed records are synthetic.",
+      "alt": "Bilingual profile editor at 1280 pixels in light appearance, with synthetic records.",
+      "width": 1280,
+      "height": 2429,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "35e06835df1c6a31ea324f13a6a1e29a7e229bf3828da707833d5303c530d67f",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 1280 px · light · Bilingual profile light Bilingual synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-1280-dark-en.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 1280 px · dark · English",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "dark",
+      "language": "English",
+      "capturedAt": "2026-10-21T21:57:38.529986+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 1280-pixel browser viewport in dark appearance and English mode. Displayed records are synthetic.",
+      "alt": "English profile editor at 1280 pixels in dark appearance, with synthetic records.",
+      "width": 1280,
+      "height": 2345,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "de9f9c237b39960436e35224022d4b34d362955a9bb4a0bce0b72af6c76508d9",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 1280 px · dark · English profile dark English synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-1280-dark-yue.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 1280 px · dark · Cantonese",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "dark",
+      "language": "Cantonese",
+      "capturedAt": "2026-10-21T21:57:42.210005+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 1280-pixel browser viewport in dark appearance and Cantonese mode. Displayed records are synthetic.",
+      "alt": "Cantonese profile editor at 1280 pixels in dark appearance, with synthetic records.",
+      "width": 1280,
+      "height": 2345,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "ca099ea022c9fd804f018754ce86172f5591697051847a2f2a1a07c9d818c069",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 1280 px · dark · Cantonese profile dark Cantonese synthetic evidence"
+    },
+    {
+      "path": "captures/profile-matrix/profile-1280-dark-both.png",
+      "state": "Profile editor and saved profile state",
+      "title": "Profile editor at 1280 px · dark · Bilingual",
+      "category": "profile",
+      "evidenceSet": "current-profile-matrix",
+      "theme": "dark",
+      "language": "Bilingual",
+      "capturedAt": "2026-10-21T21:57:45.838225+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The profile editor at a 1280-pixel browser viewport in dark appearance and Bilingual mode. Displayed records are synthetic.",
+      "alt": "Bilingual profile editor at 1280 pixels in dark appearance, with synthetic records.",
+      "width": 1280,
+      "height": 2429,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "b45776d07874942503f0524f00873eac4f59ae168ee10fb536f72c4126d75aa1",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The profile-matrix run recorded 18 layout tuples and separately failed the browser-title persistence check. This image documents pixels only.",
+      "limits": [
+        "Synthetic profile and workspace data only; no real account or correspondence is shown.",
+        "One rendered browser state only; the image does not prove persistence or interactions.",
+        "The same run reported a separate browser-title persistence failure.",
+        "Physical-device input, physical display scaling, extension behavior, full 48-tuple acceptance, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Profile editor at 1280 px · dark · Bilingual profile dark Bilingual synthetic evidence"
+    },
+    {
+      "path": "captures/terminology/wording-en.png",
+      "state": "Product label in English mode",
+      "title": "Product label in English mode",
+      "category": "product-label",
+      "evidenceSet": "current-terminology",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-10-21T21:59:36.726425+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The tailoring form shows the product-label preference in English. The displayed profile and job fields are synthetic.",
+      "alt": "Product label in English mode on the tailoring form with synthetic records.",
+      "width": 1280,
+      "height": 1564,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "2648a8276f4106ff14333e324dab886060e44fa215a07edbd78c042ecd799d70",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The source run reported failure during startup after producing six images. This image documents visible copy only, not a passing run or persistent behavior.",
+      "limits": [
+        "Synthetic profile and job data only; no real account or correspondence is shown.",
+        "The source run reported a startup failure after capture collection; this image alone is not a passing result.",
+        "The image shows a label choice only; toggle persistence and all workflow surfaces are not established.",
+        "Physical-device input, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Product label in English mode product-label light English synthetic evidence"
+    },
+    {
+      "path": "captures/terminology/wording-cantonese.png",
+      "state": "Product label in Cantonese mode",
+      "title": "Product label in Cantonese mode",
+      "category": "product-label",
+      "evidenceSet": "current-terminology",
+      "theme": "light",
+      "language": "Cantonese",
+      "capturedAt": "2026-10-21T21:59:40.807013+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The tailoring form shows the product-label preference in Cantonese. The displayed profile and job fields are synthetic.",
+      "alt": "Product label in Cantonese mode on the tailoring form with synthetic records.",
+      "width": 1280,
+      "height": 1541,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "f655a031018e02d36f3916ca9a8512e827466527097a3d7621e800cef6004319",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The source run reported failure during startup after producing six images. This image documents visible copy only, not a passing run or persistent behavior.",
+      "limits": [
+        "Synthetic profile and job data only; no real account or correspondence is shown.",
+        "The source run reported a startup failure after capture collection; this image alone is not a passing result.",
+        "The image shows a label choice only; toggle persistence and all workflow surfaces are not established.",
+        "Physical-device input, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Product label in Cantonese mode product-label light Cantonese synthetic evidence"
+    },
+    {
+      "path": "captures/terminology/wording-bilingual.png",
+      "state": "Product label in bilingual mode",
+      "title": "Product label in bilingual mode",
+      "category": "product-label",
+      "evidenceSet": "current-terminology",
+      "theme": "light",
+      "language": "Bilingual",
+      "capturedAt": "2026-10-21T21:59:43.228900+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The tailoring form shows the product-label preference in Bilingual. The displayed profile and job fields are synthetic.",
+      "alt": "Product label in bilingual mode on the tailoring form with synthetic records.",
+      "width": 1280,
+      "height": 1646,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "c56826654b0eb0449253e64a8f711e0f0494445520e99e09f6c14f2e0d7e71a6",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The source run reported failure during startup after producing six images. This image documents visible copy only, not a passing run or persistent behavior.",
+      "limits": [
+        "Synthetic profile and job data only; no real account or correspondence is shown.",
+        "The source run reported a startup failure after capture collection; this image alone is not a passing result.",
+        "The image shows a label choice only; toggle persistence and all workflow surfaces are not established.",
+        "Physical-device input, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Product label in bilingual mode product-label light Bilingual synthetic evidence"
+    },
+    {
+      "path": "captures/terminology/wording-original-label.png",
+      "state": "Original product label selected",
+      "title": "Original product label selected",
+      "category": "product-label",
+      "evidenceSet": "current-terminology",
+      "theme": "light",
+      "language": "English with the original label selected",
+      "capturedAt": "2026-10-21T21:59:52.170118+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The tailoring form shows the product-label preference in English with the original label selected. The displayed profile and job fields are synthetic.",
+      "alt": "Original product label selected on the tailoring form with synthetic records.",
+      "width": 1280,
+      "height": 1564,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "81f820d6173a402b59af77143ea517a4bb03f0426ce7450ede0cd2519587b403",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The source run reported failure during startup after producing six images. This image documents visible copy only, not a passing run or persistent behavior.",
+      "limits": [
+        "Synthetic profile and job data only; no real account or correspondence is shown.",
+        "The source run reported a startup failure after capture collection; this image alone is not a passing result.",
+        "The image shows a label choice only; toggle persistence and all workflow surfaces are not established.",
+        "Physical-device input, installer, release, and production TLS remain unverified."
+      ],
+      "search": "Original product label selected product-label light English with the original label selected synthetic evidence"
+    },
+    {
+      "path": "captures/workflow-state/paused-association-unverified.png",
+      "state": "Ready tailoring view; paused-state association unverified",
+      "title": "Synthetic workspace with unresolved paused-state association",
+      "category": "workflow-state",
+      "evidenceSet": "unverified-paused-association",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-10-21T22:01:15.268185+00:00",
+      "timestampBasis": "Producer capture receipt, UTC.",
+      "caption": "The screenshot shows a synthetic tailoring page in a ready state. A separate API receipt reported a paused value, but its association to this screen is unverified; no resume, cancel, or provider action is shown.",
+      "alt": "Synthetic tailoring workspace in a ready state; association to a paused API record is unverified.",
+      "width": 1280,
+      "height": 1424,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "c3ef8c645cf973656e6d2cc12eab6d08619a3e86e98865cc1608dd3ae862d9b1",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "The API record and visible tailoring page could not be associated conclusively.",
+      "limits": [
+        "Synthetic workspace and job data only.",
+        "The paused API record reports running and paused_at; the visible tailoring page shows a ready state. Their association and product cause are unresolved.",
+        "No resume, cancel, or provider action was invoked.",
+        "Production account, TLS, native input, installer, and release behavior are not established."
+      ],
+      "search": "Synthetic workspace with unresolved paused-state association workflow-state light English synthetic evidence"
+    },
+    {
+      "path": "captures/earlier-original-saves/earlier-text-original-saved.png",
+      "state": "Earlier text-document original-save view",
+      "title": "Earlier synthetic text-document original saved",
+      "category": "original-files",
+      "evidenceSet": "earlier-original-file-saves",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": null,
+      "timestampBasis": "Unavailable in reviewed source record",
+      "caption": "An earlier source-bound preview shows a synthetic text-document original after a save operation. It does not show a real user file, production account, or external upload.",
+      "alt": "Earlier synthetic text-document original-save view.",
+      "width": 1280,
+      "height": 1520,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "a44d1f332b3cec1655b8becab5e7fe8534ada6be22767df5d233ad91fda2d1f2",
+      "sourceRevision": "fb3a6a7f37ed6ad6485930cf7b6e976c2f76272c",
+      "sourceImageId": "sha256:6fec225112ae48f30548893e00dc4c638d7470bda9768fbaf26252e6b57375c5",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "Earlier source build. Per-image pixel review found synthetic-only content; no capture timestamp is available in the reviewed source record.",
+      "limits": [
+        "Synthetic example only; no real user file, account, or external upload is shown.",
+        "This image is bound to an earlier source revision and is retained as historical evidence, not as the current build.",
+        "Capture timestamp and timezone are unavailable in the reviewed source record.",
+        "Production TLS, native input, installer, and release behavior are not established."
+      ],
+      "search": "Earlier synthetic text-document original saved original-files light English synthetic evidence"
+    },
+    {
+      "path": "captures/earlier-original-saves/earlier-document-original-saved.png",
+      "state": "Earlier Word-document original-save view",
+      "title": "Earlier synthetic Word-document original saved",
+      "category": "original-files",
+      "evidenceSet": "earlier-original-file-saves",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": null,
+      "timestampBasis": "Unavailable in reviewed source record",
+      "caption": "An earlier source-bound preview shows a synthetic Word-document original after a save operation. It does not show a real user file, production account, or external upload.",
+      "alt": "Earlier synthetic Word-document original-save view.",
+      "width": 1280,
+      "height": 1564,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "f0ebecd29af28bb75c2b18bed629f2b088fa0f5d1839a99769ca3ec689a421c0",
+      "sourceRevision": "fb3a6a7f37ed6ad6485930cf7b6e976c2f76272c",
+      "sourceImageId": "sha256:6fec225112ae48f30548893e00dc4c638d7470bda9768fbaf26252e6b57375c5",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "Earlier source build. Per-image pixel review found synthetic-only content; no capture timestamp is available in the reviewed source record.",
+      "limits": [
+        "Synthetic example only; no real user file, account, or external upload is shown.",
+        "This image is bound to an earlier source revision and is retained as historical evidence, not as the current build.",
+        "Capture timestamp and timezone are unavailable in the reviewed source record.",
+        "Production TLS, native input, installer, and release behavior are not established."
+      ],
+      "search": "Earlier synthetic Word-document original saved original-files light English synthetic evidence"
+    },
+    {
+      "path": "captures/earlier-original-saves/earlier-pdf-original-saved.png",
+      "state": "Earlier PDF-document original-save view",
+      "title": "Earlier synthetic PDF-document original saved",
+      "category": "original-files",
+      "evidenceSet": "earlier-original-file-saves",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": null,
+      "timestampBasis": "Unavailable in reviewed source record",
+      "caption": "An earlier source-bound preview shows a synthetic PDF-document original after a save operation. It does not show a real user file, production account, or external upload.",
+      "alt": "Earlier synthetic PDF-document original-save view.",
+      "width": 1280,
+      "height": 1564,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "sha256": "97c964159160dc469bedd60168c10b8c1709dd2efb850beb920df2eca61795de",
+      "sourceRevision": "fb3a6a7f37ed6ad6485930cf7b6e976c2f76272c",
+      "sourceImageId": "sha256:6fec225112ae48f30548893e00dc4c638d7470bda9768fbaf26252e6b57375c5",
+      "sourceBinding": "Matched to the reviewed producer receipt by source revision and image digest; no private source URL or machine-local path is published.",
+      "runStatus": "Earlier source build. Per-image pixel review found synthetic-only content; no capture timestamp is available in the reviewed source record.",
+      "limits": [
+        "Synthetic example only; no real user file, account, or external upload is shown.",
+        "This image is bound to an earlier source revision and is retained as historical evidence, not as the current build.",
+        "Capture timestamp and timezone are unavailable in the reviewed source record.",
+        "Production TLS, native input, installer, and release behavior are not established."
+      ],
+      "search": "Earlier synthetic PDF-document original saved original-files light English synthetic evidence"
     }
   ],
   "excluded": [
@@ -955,6 +1810,53 @@
     {
       "id": "workspace-a44073e-profile-editor-saved-light",
       "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
+    }
+  ],
+  "historicalDocumentationArtifactSha256": "0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
+  "evidenceSets": [
+    {
+      "id": "current-profile-matrix",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "includedCount": 18,
+      "runState": "The 18 profile images were inspected. A separate browser-title persistence check failed in the same run.",
+      "timestampPolicy": "Producer timestamps include no offset; timezone unavailable."
+    },
+    {
+      "id": "current-terminology",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "includedCount": 4,
+      "runState": "Four wording views included. The capture-producing run reported failure during startup; views do not prove persistence.",
+      "timestampPolicy": "Producer timestamps include no offset; timezone unavailable."
+    },
+    {
+      "id": "unverified-paused-association",
+      "sourceRevision": "feaddaeae3e1242f4547e0335a364932378ce6b8",
+      "sourceImageId": "sha256:fc421f7d4a019d37e5b0eac1dc18b95123ec8d06207afc69317571ca6230e0fb",
+      "includedCount": 1,
+      "runState": "The paused API record and visible ready screen cannot be associated conclusively.",
+      "timestampPolicy": "Producer timestamp includes no offset; timezone unavailable."
+    },
+    {
+      "id": "earlier-original-file-saves",
+      "sourceRevision": "fb3a6a7f37ed6ad6485930cf7b6e976c2f76272c",
+      "sourceImageId": "sha256:6fec225112ae48f30548893e00dc4c638d7470bda9768fbaf26252e6b57375c5",
+      "includedCount": 3,
+      "runState": "Three per-image pixel receipts found synthetic-only content. Historical source build.",
+      "timestampPolicy": "Capture timestamp and timezone unavailable in the reviewed source record."
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "group": "Browser-title diagnostic settings captures",
+      "count": 2,
+      "reason": "Full-page settings screenshots include provider-configuration fields whose visible values cannot be independently verified as safe. The confirmed browser-title persistence finding is documented without those pixels."
+    },
+    {
+      "group": "Custom-name saved settings capture",
+      "count": 1,
+      "reason": "Full-page settings screenshot includes provider-configuration fields whose visible values cannot be independently verified as safe."
     }
   ]
 }

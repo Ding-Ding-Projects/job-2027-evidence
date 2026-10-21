@@ -1,13 +1,13 @@
 # Job 2027 evidence gallery
 
-This gallery presents reviewed original images from synthetic workspace previews and current account workflows. It publishes visual evidence only; the application source remains private.
+Open the [evidence gallery](https://ding-ding-projects.github.io/job-2027-evidence/) to browse reviewed original interface images. The [gallery guide](https://ding-ding-projects.github.io/job-2027-evidence/wiki.html) explains search, filters, evidence labels, and limits. The [provenance register](https://ding-ding-projects.github.io/job-2027-evidence/provenance.html) lists source bindings, timestamps, dimensions, and image hashes.
 
-Open the [gallery home page](https://ding-ding-projects.github.io/job-2027-evidence/) to browse current workspace and account captures, the color-plane preview, earlier workspace sets, and historical documentation images. [Provenance and limits](https://ding-ding-projects.github.io/job-2027-evidence/provenance.html) records per-image details, timestamps only where supported by the reviewed source record, and publication limits.
+The source application remains private. This public repository contains only reviewed original PNG files, neutral captions, and safe evidence metadata. The latest added set contains 23 images from the current source review plus three historical original-file-save states. Three full-page settings images were withheld because provider-configuration values could not be independently verified as safe. All published records use synthetic examples.
 
-The 11 current workspace and account images preserve their original PNG bytes and have neutral captions with explicit limits. Their source revision and local file paths are not published. One setup image was withheld because its visible third-party item identifier could not be verified as synthetic. The earlier 23-image pre-plane set remains bound to artifact `sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04`. All displayed workspace and account preview data is synthetic.
+The latest profile run recorded 18 layout tuples and separately failed the browser-title persistence check. Four terminology images were captured before a startup failure and do not prove persistence. A separate paused API record could not be associated conclusively with the visible ready state. These findings remain explicit in the gallery and provenance page.
 
-Run `node scripts/build.mjs` to validate original image hashes and assemble the static gallery into `dist/`.
+Run `build.bat` to verify every listed PNG hash and assemble the static output into `dist/`. `build-installer.bat` reports that installer production is not applicable to this static gallery.
 
 ## Publication checks
 
-Install the maintainer-managed local tooling before contributing. Configure `git config core.hooksPath .githooks`. The commit and push hooks scan staged or outgoing source and fail closed when required protected rules are unavailable. The workflow uses a trusted scanner pinned by `PUBLICATION_SCAN_POLICY_SHA`, with rule data supplied through `PUBLICATION_LANGUAGE_DATA` in repository secrets. Hosted checks run after transmission; required branch protection is verified separately. These checks do not establish image-pixel privacy or rewrite historical records.
+The repository uses local publication-language hooks and a trusted GitHub Actions scan. The workflow receives protected policy data through the repository secret and does not include that private data in source, diagnostics, or public releases. The hosted check runs after a push and cannot cancel that push; branch protection and the current run state must be checked separately.
