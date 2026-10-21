@@ -23,4 +23,3 @@ Build through the exact root entrypoint, inspect the candidate, run the publicat
 ## Historical published-evidence record
 
 Earlier task handoffs remain below this line in version-control history.
-
