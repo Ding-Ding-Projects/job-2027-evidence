@@ -1,10 +1,10 @@
 # Job 2027 evidence gallery
 
-This gallery preserves reviewed original images from the documentation companion and synthetic workspace previews. It does not publish the private application source.
+This gallery presents reviewed original images from synthetic workspace previews and current account workflows. It publishes visual evidence only; the application source remains private.
 
-Open the [gallery home page](https://ding-ding-projects.github.io/job-2027-evidence/) to browse the latest built color-plane preview, the pre-plane historical set, and the earlier documentation images. [Provenance and limits](https://ding-ding-projects.github.io/job-2027-evidence/provenance.html) records safe per-image metadata and the reasons historical images were not promoted.
+Open the [gallery home page](https://ding-ding-projects.github.io/job-2027-evidence/) to browse current workspace and account captures, the color-plane preview, earlier workspace sets, and historical documentation images. [Provenance and limits](https://ding-ding-projects.github.io/job-2027-evidence/provenance.html) records per-image details, timestamps only where supported by the reviewed source record, and publication limits.
 
-The latest four images are bound to build artifact `sha256:813a454083076d4df6cbfe2be3d98623f0dc06fb28a48d0e6fcbf1aa003e94ae`. The build receipt has no source commit, and the gallery does not infer one. The 23-image pre-plane set is bound to artifact `sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04`. All workspace preview data is synthetic.
+The 11 current workspace and account images preserve their original PNG bytes and have neutral captions with explicit limits. Their source revision and local file paths are not published. One setup image was withheld because its visible third-party item identifier could not be verified as synthetic. The earlier 23-image pre-plane set remains bound to artifact `sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04`. All displayed workspace and account preview data is synthetic.
 
 Run `node scripts/build.mjs` to validate original image hashes and assemble the static gallery into `dist/`.
 

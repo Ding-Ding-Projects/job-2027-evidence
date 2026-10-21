@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "scope": "Reviewed original documentation images, the pre-plane synthetic workspace set, and the later color-plane preview set. All images remain byte-for-byte originals.",
+  "scope": "Reviewed original documentation, synthetic workspace, and current synthetic account-flow images. All published images retain their original PNG bytes.",
   "sourceState": "21520775aa46ef70751e24de7a6abab60ec1ab76",
   "builtArtifactSha256": "0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
   "viewport": {
@@ -609,6 +609,248 @@
         "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
         "Images show specific states and do not prove independent release acceptance."
       ]
+    },
+    {
+      "path": "captures/current/mail-provider-setup-guided.png",
+      "state": "Guided mail provider setup",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-21T07:34:44.525079+00:00",
+      "timestampBasis": "Reviewed source capture inventory",
+      "caption": "The provider setup flow shows saved draft controls and permission choices. The displayed account data is synthetic; no provider authorization or delivery is demonstrated.",
+      "alt": "The provider setup flow shows draft controls and permission choices with synthetic data.",
+      "width": 1280,
+      "height": 2172,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "0c7c8885c3b09323f9b8595d4d511d94d4ae0d23fdef9c241c02a3319bdc19ed",
+      "search": "mail setup provider draft synthetic guided account",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "Synthetic account and mail data only; no provider authorization or delivery is shown.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/two-step-sign-in-overview.png",
+      "state": "Two-step sign-in setup",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-21T07:34:53.021527+00:00",
+      "timestampBasis": "Reviewed source capture inventory",
+      "caption": "The setup screen shows language selection and enrollment choices while two-step sign-in remains disabled.",
+      "alt": "Two-step sign-in setup with language selection and enrollment choices.",
+      "width": 1280,
+      "height": 900,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "0e79e564333cf70fa769bed70dbd5d6b59aa63313581f3b4875d58889f38c319",
+      "search": "security two-step sign-in enrollment setup language",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "Synthetic test state only; no real account data or external operation is shown.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/authenticator-pairing-hidden.png",
+      "state": "Authenticator pairing details concealed",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-21T07:34:53.715462+00:00",
+      "timestampBasis": "Reviewed source capture inventory",
+      "caption": "Pairing details remain concealed until the user chooses to reveal them. No pairing value is displayed.",
+      "alt": "Authenticator setup before pairing details are revealed.",
+      "width": 1280,
+      "height": 1207,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "db4b00ed5e4dd470dc4194724ba20767f7f70ca17e808daca80c2390782102f6",
+      "search": "authenticator pairing details hidden concealed privacy",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "No pairing value or credential is visible.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/sign-in-verification-pending.png",
+      "state": "Second sign-in step pending",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-21T07:34:54.340304+00:00",
+      "timestampBasis": "Reviewed source capture inventory",
+      "caption": "A pending sign-in screen shows the second verification step and remaining attempts. No verification code is entered or accepted.",
+      "alt": "Pending second-step verification with no code entered.",
+      "width": 1280,
+      "height": 954,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "5befa091830c52c374d59726d4ce477c36755573e7ac5e3fe0633706a51d1840",
+      "search": "sign-in verification pending attempts code",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "Synthetic sign-in state only; no real account or verification code is shown.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/authenticator-active.png",
+      "state": "Authenticator enabled",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-21T07:35:04.574275+00:00",
+      "timestampBasis": "Reviewed source capture inventory",
+      "caption": "The settings view shows two-step sign-in enabled and a recovery-code count. No recovery code value is displayed.",
+      "alt": "Two-step sign-in enabled; recovery-code values remain hidden.",
+      "width": 1280,
+      "height": 1091,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "94e8d68e302c4f6ac0cb674b8a2a7dd7ec640ed377c394bacfee4bc22c2e271e",
+      "search": "authenticator enabled recovery codes settings security",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "No recovery code value or account credential is visible.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/mail-attachment-review.png",
+      "state": "Review a PDF attachment before mail approval",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-21T07:34:49.127961+00:00",
+      "timestampBasis": "Reviewed source capture inventory",
+      "caption": "Mail composition shows a synthetic attachment preview and an explicit review control. The image does not show an approval or message delivery.",
+      "alt": "Mail composition with a synthetic PDF attachment and a separate review control.",
+      "width": 1280,
+      "height": 2636,
+      "viewportWidth": 1280,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "fddb6edaa4135a8e109124479e86498e46be01b7a6d68d01c666a07dba21d5dd",
+      "search": "mail pdf attachment review approval",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "Synthetic mail and document content only; no real correspondence or provider action is shown.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/mail-narrow-bilingual.png",
+      "state": "Bilingual mail workspace at 320 pixels",
+      "theme": "dark",
+      "language": "both",
+      "capturedAt": "2026-10-21T07:35:55.330665+00:00",
+      "timestampBasis": "Reviewed source capture inventory",
+      "caption": "A 320-pixel bilingual view shows the mail workspace in a narrow layout with synthetic account state.",
+      "alt": "Bilingual mail workspace at a 320-pixel viewport with synthetic data.",
+      "width": 320,
+      "height": 1450,
+      "viewportWidth": 320,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "4804245fb0668750db9f8128e32ed6501370cf5532286e46db621065a2ba8ef7",
+      "search": "mail bilingual narrow 320 responsive workspace",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "Synthetic account and mailbox state only; no real correspondence is shown.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/mail-narrow-light.png",
+      "state": "Light mail workspace at 390 pixels",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-21T07:35:56.174403+00:00",
+      "timestampBasis": "Reviewed source capture inventory",
+      "caption": "A 390-pixel light-appearance view shows the mail workspace and an empty inbox with synthetic account state.",
+      "alt": "Light mail workspace at a 390-pixel viewport with an empty synthetic inbox.",
+      "width": 390,
+      "height": 1162,
+      "viewportWidth": 390,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "cf8653bd2618c15458473d3fa073a89c1c9071e597d3df98d6f106e63bc7e690",
+      "search": "mail light narrow 390 responsive inbox",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "Synthetic account and mailbox state only; no real correspondence is shown.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/security-narrow-bilingual.png",
+      "state": "Bilingual security setup at 320 pixels",
+      "theme": "dark",
+      "language": "both",
+      "capturedAt": "2026-10-21T07:35:55.714447+00:00",
+      "timestampBasis": "Reviewed source capture inventory",
+      "caption": "A 320-pixel bilingual dark view shows two-step sign-in setup and enrollment choices.",
+      "alt": "Bilingual dark two-step sign-in setup at a 320-pixel viewport.",
+      "width": 320,
+      "height": 1157,
+      "viewportWidth": 320,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "96da03cb43c9baf668e1428f57feb8860f8029ae391cbd6de2fe917c4a1971f4",
+      "search": "security bilingual dark narrow 320 setup",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "Synthetic test state only; no credential, pairing value, or real account data is shown.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/run-settings-bilingual-desktop.png",
+      "state": "Expanded run settings and idle process panel",
+      "theme": "dark",
+      "language": "both",
+      "capturedAt": null,
+      "timestampBasis": "Unavailable in the reviewed source record",
+      "caption": "A bilingual workspace view shows expanded run limits beside an idle process panel. The capture shows no process running.",
+      "alt": "Expanded run settings beside an idle process panel.",
+      "width": 1440,
+      "height": 900,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "47f2e3833479f5e4d1635645c07a9acaa65c4642b1302f7578b0ee99fa99f552",
+      "search": "run settings bilingual desktop idle process limits",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "Synthetic interface state only; no live process or external operation is shown.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
+    },
+    {
+      "path": "captures/current/download-limit-detail.png",
+      "state": "Download limit detail",
+      "theme": "dark",
+      "language": "both",
+      "capturedAt": null,
+      "timestampBasis": "Unavailable in the reviewed source record",
+      "caption": "An isolated control shows a synthetic download limit value and its range guidance.",
+      "alt": "Download limit control with range guidance.",
+      "width": 332,
+      "height": 93,
+      "viewportWidth": 1440,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "sha256": "f4958dcaa50dbb6efa4308c2a284e7a6045d02a37c7ff1a7d3a13d3da363303b",
+      "search": "download limit detail guidance value",
+      "sourceBinding": "Matched locally to the reviewed source capture inventory; source revision and local paths are withheld.",
+      "limits": [
+        "The displayed value belongs to a synthetic test state.",
+        "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ]
     }
   ],
   "excluded": [
@@ -627,6 +869,10 @@
     {
       "class": "generated announcement images",
       "reason": "Private announcement material, not product evidence."
+    },
+    {
+      "class": "one account-setup preview",
+      "reason": "A third-party item identifier in the visible state could not be verified as synthetic, so the image was withheld."
     }
   ],
   "withheldHistorical": [
