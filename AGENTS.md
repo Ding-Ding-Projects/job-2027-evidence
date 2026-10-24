@@ -21,4 +21,4 @@ a step, not a habit.
 
 ## Scope
 
-This repository contains a public evidence gallery for three approved documentation companion images. Keep the source application private. Do not add unreviewed images, private URLs, local paths, credentials, or personal data. Preserve the exact image bytes and safe provenance records.
+This repository contains a public evidence gallery for reviewed original images. Add an image only when the current task authorizes that source set and its original bytes, source binding, privacy review, and evidence limits are verified. Keep the source application private. Do not add unreviewed images, private URLs, local paths, credentials, or personal data. Preserve exact image bytes and safe provenance records. Images from older source builds must be labeled with their recorded date and source and must not imply coverage of a newer build.

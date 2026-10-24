@@ -1,10 +1,12 @@
 # Job 2027 evidence gallery
 
-This gallery presents reviewed original images from synthetic workspace previews and current account workflows. It publishes visual evidence only; the application source remains private.
+This gallery presents reviewed original images from synthetic workspace previews and historical account-flow captures. The source application remains private. No image in the gallery represents the latest source build because that source has no built capture set.
 
-Open the [gallery home page](https://ding-ding-projects.github.io/job-2027-evidence/) to browse current workspace and account captures, the color-plane preview, earlier workspace sets, and historical documentation images. [Provenance and limits](https://ding-ding-projects.github.io/job-2027-evidence/provenance.html) records per-image details, timestamps only where supported by the reviewed source record, and publication limits.
+Open the [gallery home page](https://ding-ding-projects.github.io/job-2027-evidence/) to browse the dated workspace snapshots, account-flow views, color-plane preview, pre-plane images, and historical documentation captures. [Provenance and limits](https://ding-ding-projects.github.io/job-2027-evidence/provenance.html) records each image's source revision when available, build artifact, capture time, image hash, and evidence limits.
 
-The 11 current workspace and account images preserve their original PNG bytes and have neutral captions with explicit limits. Their source revision and local file paths are not published. One setup image was withheld because its visible third-party item identifier could not be verified as synthetic. The earlier 23-image pre-plane set remains bound to artifact `sha256:b316cfde243571354b5892945938969cec42c9f2a86a1301ff606aa93c0c3e04`. All displayed workspace and account preview data is synthetic.
+The gallery contains 61 original PNGs: 3 documentation images, 23 pre-plane workspace images, 4 color-plane images bound to an artifact digest whose source commit is unavailable, 11 account-flow images from source `ce7d22cbcd2813f2d55e5907f137738b38bb2723`, 8 historical integration-baseline images from source `a44073e5d776fe9dd2606f8fe96720b7c89accaf`, and 12 historical workspace images from source `b022de6ba3a2bb03eb067e6a956991070ab6662e`. The 20 newly added historical workspace images preserve their original PNG bytes. Captions identify synthetic data and state what each image does not prove.
+
+Two source captures remain withheld: a setup image with a third-party item identifier that could not be confirmed as synthetic, and an unrelated provider-identity image with an item identifier that could not be confirmed as synthetic. Their values and pixels are not published. The gallery's existing account-flow and color-plane images are older snapshots; they are not relabeled as the latest source. The latest source update has no built captures.
 
 Run `node scripts/build.mjs` to validate original image hashes and assemble the static gallery into `dist/`.
 

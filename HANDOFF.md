@@ -1,20 +1,18 @@
 # Public evidence handoff
 
-## Current capture publication
+## Historical workspace evidence update
 
-The candidate adds 11 original interface images from the reviewed current workspace and account capture set. The PNG bytes match the reviewed source inventory hashes. Captions use synthetic-state descriptions and pair each image with its limits. One setup image with an unverified third-party item identifier is withheld. The private source revision and local source paths are omitted.
+The task branch `codex/historical-workspace-evidence-20261023` adds 20 byte-preserving historical workspace images: 8 from source `a44073e5d776fe9dd2606f8fe96720b7c89accaf` and 12 from source `b022de6ba3a2bb03eb067e6a956991070ab6662e`. Their capture hashes match the current private capture inventory, the source pixels were inspected, and their public metadata identifies source, artifact, capture timestamp, viewport, synthetic-data status, and limits. The latest source build has no current capture set; none of these older images is presented as current.
 
-PR #3 is open from `codex/current-gallery-evidence`. The initial push that created the task branch triggered a workflow run with no previous base and returned `Event base publication is unknown.` The separate pull-request run passed. The current live gallery still has its previous content; the new images have not been verified live. A follow-up branch update will let the outgoing-history workflow run against an existing base before integration.
+The existing main gallery had 41 images. A live readback verified that all 41 manifest routes returned HTTP 200 with matching bytes. The existing 23-image pre-plane set also matches the historical `b2c877c` source originals. Eleven account-flow images match source `ce7d22c`; four color-plane images remain bound only to an artifact digest because their exact source commit is unavailable. Those pre-existing images remain unchanged except that the account-flow source binding is added to the metadata.
 
-The source project owner separately owns updating the source README gallery description and reading it back after integration. Existing live gallery content and the exact About homepage URL must remain intact.
+Two source captures remain withheld: an unrelated provider-identity screen and a companion setup screen, each with a third-party item identifier that could not be confirmed as synthetic. A separate open PR #4 from `ai/feature/20261021-current-evidence-update` remains untouched because its images are absent from the current source capture inventory.
 
-## Evidence limits
+## Evidence limits and remaining work
 
-The published images show individual visible states. They do not establish complete behavior, production authentication, provider delivery, production TLS, native input, an installer, or a release. A capture timestamp is published only where the reviewed source inventory supplies one; missing per-image times remain unavailable. Browser-level visual inspection of the current candidate is unverified because the required isolated browser route was unavailable in this session.
+The new historical image set is local to this task branch. The required `publication-language` check, PR review, merge, Pages rebuild, live image routes, final main SHA, and post-merge provenance readback are pending. No product build or runtime is claimed. The current page and all original gallery images on main remain available. The exact About homepage readback is `https://ding-ding-projects.github.io/job-2027-evidence/`.
 
-## Remaining action
-
-Update the task branch, require the outgoing-history and pull-request language runs to pass on the new head, merge through the supported review route, then read back the public default ref, Pages state, home, provenance, all 11 image routes, and the exact About homepage. The source project owner must separately verify the source README link after integration.
+The source project owner separately owns adding that deployed gallery URL to the private source README and verifying the integrated link.
 
 ## Historical published-evidence record
 
