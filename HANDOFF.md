@@ -10,7 +10,9 @@ Two source captures remain withheld: an unrelated provider-identity screen and a
 
 ## Evidence limits and remaining work
 
-The new historical image set is local to this task branch. The required `publication-language` check, PR review, merge, Pages rebuild, live image routes, final main SHA, and post-merge provenance readback are pending. No product build or runtime is claimed. The current page and all original gallery images on main remain available. The exact About homepage readback is `https://ding-ding-projects.github.io/job-2027-evidence/`.
+PR #5, `https://github.com/Ding-Ding-Projects/job-2027-evidence/pull/5`, contains commit `133fdb89e8b862837528d24785db09c0c6e97473`. Its pull-request `publication-language` run `40054896688` passed. The first push-event run `40054756808` failed before scanning because its new-ref event supplied a zero base SHA (`Event base publication is unknown.`). Branch protection still reports `BLOCKED`, so integration is not authorized by the current check state. A factual handoff update on the existing task branch will create a new push event with a known previous head; its required run must pass before the protected merge.
+
+After that check, merge through the protected route, then verify the main commit SHA, Pages rebuild, public home and provenance pages, all 61 image routes, and the final About homepage value. No product build or runtime is claimed. The current page and all original gallery images on main remain available at `https://ding-ding-projects.github.io/job-2027-evidence/`.
 
 The source project owner separately owns adding that deployed gallery URL to the private source README and verifying the integrated link.
 

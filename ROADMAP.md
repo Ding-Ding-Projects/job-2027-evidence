@@ -4,7 +4,7 @@
 
 - [x] Review the current source capture inventory. The latest source build has no built/current capture set; no older image is presented as current.
 - [x] Verify the existing public gallery on `main`: 41 manifest images returned HTTP 200 and matched their published SHA-256 values; the GitHub Pages source is `main:/docs`.
-- [ ] Add 20 historical workspace images from source commits `a44073e5d776fe9dd2606f8fe96720b7c89accaf` and `b022de6ba3a2bb03eb067e6a956991070ab6662e` with original bytes, inspected pixels, neutral captions, and per-image evidence limits. The protected update is pending review and publication checks.
+- [ ] Add 20 historical workspace images from source commits `a44073e5d776fe9dd2606f8fe96720b7c89accaf` and `b022de6ba3a2bb03eb067e6a956991070ab6662e` with original bytes, inspected pixels, neutral captions, and per-image evidence limits. PR #5's pull-request check passed, but its initial branch-creation push check failed before scanning because the event had no base SHA; a new push-event check and protected merge remain pending.
 - [ ] Verify the updated live home, provenance page, all 61 image routes, and byte hashes after the Pages rebuild.
 - [x] Keep two reviewed source captures withheld because they show an unrelated provider identity or third-party item identifier that could not be verified as synthetic.
 - [x] Read back the GitHub About homepage field and verify its exact value matches the deployed home URL.
