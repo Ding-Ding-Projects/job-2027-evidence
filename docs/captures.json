@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "scope": "Reviewed original documentation, synthetic workspace, and current synthetic account-flow images. All published images retain their original PNG bytes.",
+  "scope": "Reviewed original documentation, synthetic workspace, account-flow, and artifact-bound color-plane images. Original PNG bytes are preserved. Each image records its source revision where available and states its limitations. No image represents the latest source build.",
   "sourceState": "21520775aa46ef70751e24de7a6abab60ec1ab76",
   "builtArtifactSha256": "0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
   "viewport": {
@@ -26,7 +26,12 @@
       "limits": [
         "Historical documentation companion only.",
         "Partial Cantonese localization; complete layout, keyboard and screen-reader acceptance are not established."
-      ]
+      ],
+      "sourceCommit": "21520775aa46ef70751e24de7a6abab60ec1ab76",
+      "sourceCaptureId": "documentation-2152077-task-guide",
+      "historical": true,
+      "sourceSet": "documentation-2152077",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/documentation-worker-article-2152077.png",
@@ -45,7 +50,12 @@
       "limits": [
         "Historical documentation companion only.",
         "Partial Cantonese localization; complete layout, keyboard and screen-reader acceptance are not established."
-      ]
+      ],
+      "sourceCommit": "21520775aa46ef70751e24de7a6abab60ec1ab76",
+      "sourceCaptureId": "documentation-2152077-worker-article",
+      "historical": true,
+      "sourceSet": "documentation-2152077",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/documentation-cantonese-light-2152077.png",
@@ -64,7 +74,12 @@
       "limits": [
         "Historical documentation companion only.",
         "Partial Cantonese localization; complete layout, keyboard and screen-reader acceptance are not established."
-      ]
+      ],
+      "sourceCommit": "21520775aa46ef70751e24de7a6abab60ec1ab76",
+      "sourceCaptureId": "documentation-2152077-cantonese-light",
+      "historical": true,
+      "sourceSet": "documentation-2152077",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-original-resumes.png",
@@ -84,7 +99,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-original-resumes",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-resume-revisions.png",
@@ -104,7 +124,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-resume-revisions",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-compare-resume-revisions.png",
@@ -124,7 +149,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-compare-resume-revisions",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-confirm-restore.png",
@@ -144,7 +174,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-confirm-restore",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-confirm-activation.png",
@@ -164,7 +199,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-confirm-activation",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-profile-history.png",
@@ -184,7 +224,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-profile-history",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-regex-builder.png",
@@ -204,7 +249,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-regex-builder",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-skills-bulk-add.png",
@@ -224,7 +274,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-skills-bulk-add",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-skills-regex-filter.png",
@@ -244,7 +299,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-skills-regex-filter",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-skills-sorted-reload.png",
@@ -264,7 +324,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-skills-sorted-reload",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-contextual-help-setting.png",
@@ -284,7 +349,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-contextual-help-setting",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-field-guidance-open.png",
@@ -304,7 +374,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-field-guidance-open",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-profile-json.png",
@@ -324,7 +399,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-profile-json",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-profile-editor.png",
@@ -344,7 +424,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-profile-editor",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-profile-editor-narrow.png",
@@ -364,7 +449,12 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-profile-editor-narrow",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly."
     },
     {
       "path": "captures/pre-plane/pre-plane-palette-bilingual-narrow.png",
@@ -384,7 +474,11 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-palette-bilingual-narrow",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c"
     },
     {
       "path": "captures/pre-plane/pre-plane-palette-inline-setting.png",
@@ -404,7 +498,11 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-palette-inline-setting",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c"
     },
     {
       "path": "captures/pre-plane/pre-plane-palette-desktop.png",
@@ -424,7 +522,11 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-palette-desktop",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c"
     },
     {
       "path": "captures/pre-plane/pre-plane-color-hsv.png",
@@ -444,7 +546,11 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-color-hsv",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c"
     },
     {
       "path": "captures/pre-plane/pre-plane-color-dark.png",
@@ -464,7 +570,11 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-color-dark",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c"
     },
     {
       "path": "captures/pre-plane/pre-plane-color-narrow.png",
@@ -484,7 +594,11 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-color-narrow",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c"
     },
     {
       "path": "captures/pre-plane/pre-plane-settings-bilingual.png",
@@ -504,7 +618,11 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-settings-bilingual",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c"
     },
     {
       "path": "captures/pre-plane/pre-plane-color-incomplete.png",
@@ -524,7 +642,11 @@
         "Synthetic preview data.",
         "Pre-plane build; it does not show the later two-dimensional color plane.",
         "A visible state alone does not prove persistence, native input or release behavior."
-      ]
+      ],
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "sourceCaptureId": "workspace-b2c877c-color-incomplete",
+      "historical": true,
+      "sourceSet": "workspace-b2c877c"
     },
     {
       "path": "captures/color-plane/sv-light-desktop.png",
@@ -545,7 +667,9 @@
         "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
         "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
         "Images show specific states and do not prove independent release acceptance."
-      ]
+      ],
+      "historical": true,
+      "sourceCommit": null
     },
     {
       "path": "captures/color-plane/sv-invalid-desktop.png",
@@ -566,7 +690,9 @@
         "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
         "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
         "Images show specific states and do not prove independent release acceptance."
-      ]
+      ],
+      "historical": true,
+      "sourceCommit": null
     },
     {
       "path": "captures/color-plane/sv-dark-desktop.png",
@@ -587,7 +713,9 @@
         "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
         "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
         "Images show specific states and do not prove independent release acceptance."
-      ]
+      ],
+      "historical": true,
+      "sourceCommit": null
     },
     {
       "path": "captures/color-plane/sv-bilingual-narrow.png",
@@ -608,7 +736,9 @@
         "The exact source commit is unavailable; this image is bound to the built artifact digest only.",
         "Browser interactions were tested in an isolated Chromium context; native operating-system input is not established.",
         "Images show specific states and do not prove independent release acceptance."
-      ]
+      ],
+      "historical": true,
+      "sourceCommit": null
     },
     {
       "path": "captures/current/mail-provider-setup-guided.png",
@@ -630,7 +760,13 @@
       "limits": [
         "Synthetic account and mail data only; no provider authorization or delivery is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-gmail-guided",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly.",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/two-step-sign-in-overview.png",
@@ -652,7 +788,13 @@
       "limits": [
         "Synthetic test state only; no real account data or external operation is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-security-overview",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly.",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/authenticator-pairing-hidden.png",
@@ -674,7 +816,13 @@
       "limits": [
         "No pairing value or credential is visible.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-authenticator-before-reveal",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly.",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/sign-in-verification-pending.png",
@@ -696,7 +844,13 @@
       "limits": [
         "Synthetic sign-in state only; no real account or verification code is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-pending-sign-in",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly.",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/authenticator-active.png",
@@ -718,7 +872,13 @@
       "limits": [
         "No recovery code value or account credential is visible.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-authenticator-enabled",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly.",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/mail-attachment-review.png",
@@ -740,7 +900,13 @@
       "limits": [
         "Synthetic mail and document content only; no real correspondence or provider action is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-pdf-review",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly.",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/mail-narrow-bilingual.png",
@@ -762,7 +928,13 @@
       "limits": [
         "Synthetic account and mailbox state only; no real correspondence is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-mail-narrow-bilingual",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly.",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/mail-narrow-light.png",
@@ -784,7 +956,13 @@
       "limits": [
         "Synthetic account and mailbox state only; no real correspondence is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-mail-narrow-light",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly.",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/security-narrow-bilingual.png",
@@ -806,7 +984,13 @@
       "limits": [
         "Synthetic test state only; no credential, pairing value, or real account data is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-security-narrow-bilingual",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "capturedAtSource": "Validated source capture inventory; timestamp and timezone preserved exactly.",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/run-settings-bilingual-desktop.png",
@@ -828,7 +1012,12 @@
       "limits": [
         "Synthetic interface state only; no live process or external operation is shown.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
-      ]
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-run-settings-desktop",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
     },
     {
       "path": "captures/current/download-limit-detail.png",
@@ -850,6 +1039,591 @@
       "limits": [
         "The displayed value belongs to a synthetic test state.",
         "A browser capture shows one state; production TLS, native input, installer, and release behavior are not established."
+      ],
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "sourceCaptureId": "hosted-ce7d22c-download-limit-detail",
+      "historical": true,
+      "sourceSet": "hosted-ce7d22c",
+      "artifactId": "sha256:97d6881a90856d37993ca3a6b7d3b5abf59175f7dd1b5d23ae621223a1328f38"
+    },
+    {
+      "path": "captures/workspace-b022de6/jobs-calendar-dark-b022de6ba3a2.png",
+      "state": "jobs-calendar-dark",
+      "caption": "Browse synthetic job postings by discovery date in the dark calendar.",
+      "alt": "Browse the job calendar in dark appearance with synthetic data",
+      "theme": "dark",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:37:53.209522+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "4f9bdc57139a90bd6b05114834a8467b447aa441410436a3ffa5ce4748bbacfa",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-jobs-calendar-dark",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/jobs-list-light-b022de6ba3a2.png",
+      "state": "jobs-list-light",
+      "caption": "Filter and sort a synthetic job list in light appearance.",
+      "alt": "Search and filter saved jobs in light appearance with synthetic data",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:39:56.853652+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1200,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1200,
+      "sha256": "c71e159d00f42a0bbea5e684c3d114c996d26a8f60bf163d0978947e1cd73c26",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-jobs-list-light",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/skills-default-selection-b022de6ba3a2.png",
+      "state": "skills-default-selection",
+      "caption": "Choose which synthetic skills appear by default while retaining the full inventory.",
+      "alt": "Choose resume skill defaults in dark appearance with synthetic data",
+      "theme": "dark",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:39:58.314159+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1200,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1200,
+      "sha256": "2a24c1e24462e0b1eb80896c5dadc43c51b8cb83e1a88b2bba215a262d2f6db1",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-skills-default-selection",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/skill-item-edit-b022de6ba3a2.png",
+      "state": "skill-item-edit",
+      "caption": "Review a single-item rename before applying it to the local profile draft.",
+      "alt": "Edit one skill in light appearance with synthetic data",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:37:55.304384+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "1d223e86ed26424b1ccf1c281d71db18e3b794d6294642d27c76177281216f1a",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-skill-item-edit",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/skill-item-delete-b022de6ba3a2.png",
+      "state": "skill-item-delete",
+      "caption": "Review the named synthetic skill before deleting it; the confirmation is not executed for this image.",
+      "alt": "Review a skill deletion in dark appearance with synthetic data",
+      "theme": "dark",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:37:56.020566+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "659ae6e2e01299c595c0812a5f4257329ec30d1b44c6e2e01d193a77ba6d7c4a",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-skill-item-delete",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/skills-bulk-edit-b022de6ba3a2.png",
+      "state": "skills-bulk-edit",
+      "caption": "Prepare several skill-name edits together without changing unselected inventory entries.",
+      "alt": "Edit selected skills together in light appearance with synthetic data",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:38:50.436642+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "633f42708b7e7517022fdf0c1f916dc7e2cb90412cf0cff82b1652f6cb035ba6",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-skills-bulk-edit",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/resume-file-selected-b022de6ba3a2.png",
+      "state": "resume-file-selected",
+      "caption": "Select a synthetic resume file through the application file control; upload is not claimed by this image.",
+      "alt": "Choose source resume material in light appearance with synthetic data",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:39:59.784657+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1200,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1200,
+      "sha256": "97d6a9590121747c1dadc13b621d306a630bc4bcdc0b924f3d8439e85f696b8c",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-resume-file-selected",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/saved-document-review-b022de6ba3a2.png",
+      "state": "saved-document-review",
+      "caption": "Inspect a saved synthetic resume and cover letter with their export controls. No download is performed.",
+      "alt": "Review saved resume and exports in dark appearance with synthetic data",
+      "theme": "dark",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:37:57.868309+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "e72250b2f41bb50dae6bf1815acbb4480dae42fd68b80e8f6993cf40a5c2748e",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-saved-document-review",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/appearance-rgb-light-b022de6ba3a2.png",
+      "state": "appearance-rgb-light",
+      "caption": "Adjust RGB channels and inspect the local color preview before applying the accent.",
+      "alt": "Adjust the accent color in light appearance with synthetic data",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:40:01.326859+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1200,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1200,
+      "sha256": "7aea29d8e4fd97f0241d3b718b17ae18773101c0ddfb729b3a59a9877e8e1f46",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-appearance-rgb-light",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/guided-settings-dark-b022de6ba3a2.png",
+      "state": "guided-settings-dark",
+      "caption": "Open the guided settings workflow and move between its steps. This image does not claim complete service provisioning.",
+      "alt": "Use guided interface settings in dark appearance with synthetic data",
+      "theme": "dark",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:40:02.904449+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 800,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 800,
+      "sha256": "59eda8ea888ec55ddddd00cfee1a71adf2ca8060fe1cd1c2d4bca4c20e0d513e",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-guided-settings-dark",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/model-defaults-light-b022de6ba3a2.png",
+      "state": "model-defaults-light",
+      "caption": "Prepare shared and task-specific model drafts with autocomplete suggestions. No save or generation is performed.",
+      "alt": "Configure productive model defaults in light appearance with synthetic data",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:38:00.122415+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "bf4c25fc2984dc5550e4b22a22d95dd9df03079490d69f7ef8f83a563ba9a3e2",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-model-defaults-light",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-b022de6/command-search-narrow-b022de6ba3a2.png",
+      "state": "command-search-narrow",
+      "caption": "Find workspace commands using the real autocomplete popup at a narrow viewport.",
+      "alt": "Navigate through command search in light appearance with synthetic data",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T12:42:09.799405+00:00",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 390,
+      "viewportHeight": 900,
+      "deviceScaleFactor": 1,
+      "width": 390,
+      "height": 900,
+      "sha256": "5e61022e31952addf12145c019ef9760ed843f6f195c8f55fb77553eadb35ec5",
+      "artifactId": "sha256:1c4416a5a87dbdc4bc4e919f52afbb1b4d4e69ba0ac391bf1fbc3e7f4f3735a2",
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "sourceCaptureId": "workspace-b022de6-command-search-narrow",
+      "historical": true,
+      "sourceSet": "workspace-b022de6",
+      "privacyReviewed": true,
+      "limits": [
+        "Built interface with synthetic API responses; this image does not establish live-backend, persistence, native operating-system, or release behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Built interface with synthetic API responses; not a live-backend or release claim.",
+        "Image demonstrates the visible state only. Saved results, persistence and external operations need separate proof.",
+        "Linux browser/container evidence; individual browser OS process IDs were not retained. Native Windows/Lowlevel proof is not claimed."
+      ]
+    },
+    {
+      "path": "captures/workspace-a44073e/resume-library-new-original-selected.png",
+      "state": "Resume library: original selected",
+      "caption": "Historical integration-baseline view of a synthetic original selected in the resume library.",
+      "alt": "Historical synthetic resume library with an original selected.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T22:40:28.136Z",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "cc7459f2e94b6865419ee56b2b5caaf37c6cee720ca7e32f1eda107755d6246b",
+      "artifactId": "sha256:76c9aa82c5641e169a4dd31b2d8fbd478acdc90ea6e525df6846cb24656724cf",
+      "sourceCommit": "a44073e5d776fe9dd2606f8fe96720b7c89accaf",
+      "sourceCaptureId": "workspace-a44073e-resume-library-new-original-selected",
+      "historical": true,
+      "sourceSet": "workspace-a44073e",
+      "privacyReviewed": true,
+      "limits": [
+        "Synthetic authenticated preview only; this image does not establish provider activity, production deployment, or native operating-system behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Native Linux build, not a completed root container image",
+        "Synthetic authenticated PostgreSQL-backed preview; no AI provider, scraping or production deployment",
+        "Captures predate narrow palette and scrolling-pointer repairs"
+      ]
+    },
+    {
+      "path": "captures/workspace-a44073e/resume-library-version-history.png",
+      "state": "Resume library: version history",
+      "caption": "Historical integration-baseline view of synthetic resume revision history.",
+      "alt": "Historical synthetic resume library with revision history.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T22:40:31.562Z",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "e9131f73dc010a85293ad4df2be23b596091f2a7648453c1a02abfe95a0a036a",
+      "artifactId": "sha256:76c9aa82c5641e169a4dd31b2d8fbd478acdc90ea6e525df6846cb24656724cf",
+      "sourceCommit": "a44073e5d776fe9dd2606f8fe96720b7c89accaf",
+      "sourceCaptureId": "workspace-a44073e-resume-library-version-history",
+      "historical": true,
+      "sourceSet": "workspace-a44073e",
+      "privacyReviewed": true,
+      "limits": [
+        "Synthetic authenticated preview only; this image does not establish provider activity, production deployment, or native operating-system behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Native Linux build, not a completed root container image",
+        "Synthetic authenticated PostgreSQL-backed preview; no AI provider, scraping or production deployment",
+        "Captures predate narrow palette and scrolling-pointer repairs"
+      ]
+    },
+    {
+      "path": "captures/workspace-a44073e/resume-library-comparison.png",
+      "state": "Compare resume revisions",
+      "caption": "Historical integration-baseline view compares two synthetic resume revisions; the displayed identity and revision values are sample data.",
+      "alt": "Compare two synthetic resume revisions in a historical workspace view.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T22:40:33.268Z",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "10daceec14c56192251b07c5631a0af48d6f5cf16f1195492dad4fbefdc7668f",
+      "artifactId": "sha256:76c9aa82c5641e169a4dd31b2d8fbd478acdc90ea6e525df6846cb24656724cf",
+      "sourceCommit": "a44073e5d776fe9dd2606f8fe96720b7c89accaf",
+      "sourceCaptureId": "workspace-a44073e-resume-library-comparison",
+      "historical": true,
+      "sourceSet": "workspace-a44073e",
+      "privacyReviewed": true,
+      "limits": [
+        "Synthetic authenticated preview only; this image does not establish provider activity, production deployment, or native operating-system behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Native Linux build, not a completed root container image",
+        "Synthetic authenticated PostgreSQL-backed preview; no AI provider, scraping or production deployment",
+        "Captures predate narrow palette and scrolling-pointer repairs"
+      ]
+    },
+    {
+      "path": "captures/workspace-a44073e/resume-library-restore-confirmation.png",
+      "state": "Review a resume restore",
+      "caption": "The historical view shows a confirmation for restoring a synthetic resume revision; the image does not show confirmation.",
+      "alt": "Review confirmation for restoring a synthetic resume revision.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T22:40:35.093Z",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "3567c647a8d345791a7db1baac2200732f92e071f835e1070e61b0cdf3e45032",
+      "artifactId": "sha256:76c9aa82c5641e169a4dd31b2d8fbd478acdc90ea6e525df6846cb24656724cf",
+      "sourceCommit": "a44073e5d776fe9dd2606f8fe96720b7c89accaf",
+      "sourceCaptureId": "workspace-a44073e-resume-library-restore-confirmation",
+      "historical": true,
+      "sourceSet": "workspace-a44073e",
+      "privacyReviewed": true,
+      "limits": [
+        "Synthetic authenticated preview only; this image does not establish provider activity, production deployment, or native operating-system behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Native Linux build, not a completed root container image",
+        "Synthetic authenticated PostgreSQL-backed preview; no AI provider, scraping or production deployment",
+        "Captures predate narrow palette and scrolling-pointer repairs"
+      ]
+    },
+    {
+      "path": "captures/workspace-a44073e/resume-activation-confirmation.png",
+      "state": "Review resume activation",
+      "caption": "The historical view shows a confirmation before activating a synthetic resume; no provider action is shown.",
+      "alt": "Review confirmation before activating a synthetic resume.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T22:40:38.010Z",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "1e8fbec3680b6dbd1af248ae91088020b50c184af702912550f4af9a8ab95ba7",
+      "artifactId": "sha256:76c9aa82c5641e169a4dd31b2d8fbd478acdc90ea6e525df6846cb24656724cf",
+      "sourceCommit": "a44073e5d776fe9dd2606f8fe96720b7c89accaf",
+      "sourceCaptureId": "workspace-a44073e-resume-activation-confirmation",
+      "historical": true,
+      "sourceSet": "workspace-a44073e",
+      "privacyReviewed": true,
+      "limits": [
+        "Synthetic authenticated preview only; this image does not establish provider activity, production deployment, or native operating-system behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Native Linux build, not a completed root container image",
+        "Synthetic authenticated PostgreSQL-backed preview; no AI provider, scraping or production deployment",
+        "Captures predate narrow palette and scrolling-pointer repairs"
+      ]
+    },
+    {
+      "path": "captures/workspace-a44073e/profile-workspace-git-history.png",
+      "state": "Inspect profile revision history",
+      "caption": "Historical view of a synthetic profile workspace with sample revision identifiers; these values are not source revision identifiers.",
+      "alt": "Inspect a synthetic profile history in a historical workspace view.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T22:43:13.229Z",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "805e0e84cc47a4c382e53586b20205ff2e91b6ed73d1e1778e2f12e1d04f3315",
+      "artifactId": "sha256:76c9aa82c5641e169a4dd31b2d8fbd478acdc90ea6e525df6846cb24656724cf",
+      "sourceCommit": "a44073e5d776fe9dd2606f8fe96720b7c89accaf",
+      "sourceCaptureId": "workspace-a44073e-profile-workspace-git-history",
+      "historical": true,
+      "sourceSet": "workspace-a44073e",
+      "privacyReviewed": true,
+      "limits": [
+        "Synthetic authenticated preview only; this image does not establish provider activity, production deployment, or native operating-system behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Native Linux build, not a completed root container image",
+        "Synthetic authenticated PostgreSQL-backed preview; no AI provider, scraping or production deployment",
+        "Captures predate narrow palette and scrolling-pointer repairs"
+      ]
+    },
+    {
+      "path": "captures/workspace-a44073e/guided-regex-builder.png",
+      "state": "Build a skill search pattern",
+      "caption": "Historical view of the regular-expression builder beside a synthetic skill search.",
+      "alt": "Build a search pattern in a historical synthetic workspace.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T22:43:16.175Z",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "07cbe2cd705dd1d0600d4f5dec2f73016244e5883a9757bb3dbbd72180b70e21",
+      "artifactId": "sha256:76c9aa82c5641e169a4dd31b2d8fbd478acdc90ea6e525df6846cb24656724cf",
+      "sourceCommit": "a44073e5d776fe9dd2606f8fe96720b7c89accaf",
+      "sourceCaptureId": "workspace-a44073e-guided-regex-builder",
+      "historical": true,
+      "sourceSet": "workspace-a44073e",
+      "privacyReviewed": true,
+      "limits": [
+        "Synthetic authenticated preview only; this image does not establish provider activity, production deployment, or native operating-system behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Native Linux build, not a completed root container image",
+        "Synthetic authenticated PostgreSQL-backed preview; no AI provider, scraping or production deployment",
+        "Captures predate narrow palette and scrolling-pointer repairs"
+      ]
+    },
+    {
+      "path": "captures/workspace-a44073e/profile-editor-saved-light.png",
+      "state": "Edit a saved profile",
+      "caption": "Historical light-appearance view of a saved synthetic profile editor.",
+      "alt": "Edit a synthetic saved profile in light appearance.",
+      "theme": "light",
+      "language": "en",
+      "capturedAt": "2026-10-20T22:43:23.595Z",
+      "capturedAtSource": "Reviewed source capture inventory; timestamp and timezone preserved exactly.",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "width": 1440,
+      "height": 1000,
+      "sha256": "289a31bd5a8176b469fa36fc3944a6d72bbae05d4ac17f14c2eb071bc4ce44de",
+      "artifactId": "sha256:76c9aa82c5641e169a4dd31b2d8fbd478acdc90ea6e525df6846cb24656724cf",
+      "sourceCommit": "a44073e5d776fe9dd2606f8fe96720b7c89accaf",
+      "sourceCaptureId": "workspace-a44073e-profile-editor-saved-light",
+      "historical": true,
+      "sourceSet": "workspace-a44073e",
+      "privacyReviewed": true,
+      "limits": [
+        "Synthetic authenticated preview only; this image does not establish provider activity, production deployment, or native operating-system behavior.",
+        "Historical integration baseline from 2026-10-20; later interface changes are not represented.",
+        "Native Linux build, not a completed root container image",
+        "Synthetic authenticated PostgreSQL-backed preview; no AI provider, scraping or production deployment",
+        "Captures predate narrow palette and scrolling-pointer repairs"
       ]
     }
   ],
@@ -956,5 +1730,49 @@
       "id": "workspace-a44073e-profile-editor-saved-light",
       "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
     }
-  ]
+  ],
+  "currentCaptureStatus": "No built/current captures were available for the latest source build reviewed for this update. All application captures in this gallery are historical.",
+  "withheld": [
+    {
+      "category": "provider identity setup image",
+      "reason": "The image shows an unrelated external provider registration and an item identifier that could not be confirmed as synthetic."
+    },
+    {
+      "category": "companion setup image",
+      "reason": "Outside the workspace evidence scope; its visible third-party item identifier could not be confirmed as synthetic."
+    }
+  ],
+  "reviewedSourceSets": [
+    {
+      "sourceCommit": "21520775aa46ef70751e24de7a6abab60ec1ab76",
+      "captureCount": 3,
+      "status": "historical documentation companion"
+    },
+    {
+      "sourceCommit": "b2c877c6097f0bbcd8311997067ce08fbaa1bb5c",
+      "captureCount": 23,
+      "status": "historical pre-plane workspace"
+    },
+    {
+      "sourceCommit": "a44073e5d776fe9dd2606f8fe96720b7c89accaf",
+      "captureCount": 8,
+      "status": "historical integration baseline"
+    },
+    {
+      "sourceCommit": "b022de6ba3a2bb03eb067e6a956991070ab6662e",
+      "captureCount": 12,
+      "status": "historical synthetic workspace"
+    },
+    {
+      "sourceCommit": "ce7d22cbcd2813f2d55e5907f137738b38bb2723",
+      "captureCount": 11,
+      "status": "historical synthetic account-flow preview"
+    },
+    {
+      "sourceCommit": null,
+      "captureCount": 4,
+      "status": "artifact-digest-only color-plane previews; source commit unavailable"
+    }
+  ],
+  "sourceStateScope": "The top-level sourceState applies only to the three historical documentation companion images. Other source-bound images carry their own sourceCommit values."
 }
