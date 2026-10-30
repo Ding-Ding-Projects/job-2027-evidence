@@ -1,10 +1,10 @@
-## 2026-10-30 inactive-attempt deletion evidence gallery update
+## 2026-10-30 inactive-attempt deletion gallery publication
 
-Added 13 deletion workflow PNGs and 3 Help article PNGs, preserving original bytes and recording image/source hashes, validated timestamps, America/Toronto timezone, viewport, browser route and limits. All 16 new captures were visually inspected. Source revisions are `8ed63931ec0c6d6ebef88e456388309473e0d0fa` and `de3b91d398dd1e86c12ffbc5f5ce31db43c0908`. The complete gallery manifest has 77 items, preserving the previous 61 records. No current-source claim is made.
+Pull request #6 integrated into `main` at `cf835d390368ccd7d21e84f6d3ab008ec2be52db`. The root `build.bat` assembled 77 original PNGs. The local publication-language scan and the latest branch-update and PR-target GitHub Actions checks passed. The first new-ref workflow failed before scanning because its event base was unknown; a later branch-update workflow passed.
 
-Root `build.bat` and the publication-language scan passed. The latest push-event check `41093156541` and PR-target check `41093163011` passed. The initial new-ref check `41091608131` failed before scanning because the event base was unknown. Pull request #6 is open and mergeable, with one approving review required; repository settings disable auto-merge. The live gallery still serves its previous content pending protected integration and the Pages rebuild.
+The live home and provenance routes returned HTTP 200. The deployed `docs/captures.json` contains 77 entries, and all 77 image routes matched their recorded SHA-256 values. The About homepage reads `https://ding-ding-projects.github.io/job-2027-evidence/`, matching the live home.
 
-After approval and integration, verify the live home and provenance pages, all 77 image routes and hashes, and the About homepage. Native DPI and full visual/accessibility acceptance remain unverified.
+Five source captures remain withheld: three settings views whose provider-configuration values could not be independently verified as safe, and two earlier views containing third-party item identifiers that could not be confirmed as synthetic. The gallery does not claim current-source capture, native DPI, full keyboard/screen-reader acceptance or installation/release evidence. The source README backlink remains parent-owned.
 
 # Historical published-evidence record
 

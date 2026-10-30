@@ -5,9 +5,9 @@
 - [x] Review the current source capture inventory. The latest source build has no built/current capture set; no older image is presented as current.
 - [x] Verify the existing public gallery on `main`: 41 manifest images returned HTTP 200 and matched their published SHA-256 values; the GitHub Pages source is `main:/docs`.
 - [x] Add 20 historical workspace images from source commits `a44073e5d776fe9dd2606f8fe96720b7c89accaf` and `b022de6ba3a2bb03eb067e6a956991070ab6662e` with original bytes, inspected pixels, neutral captions, and per-image evidence limits. PR #5 is merged on `main`.
-- [ ] Publish 16 inspected original images for inactive-attempt deletion and its Help article, source-bound to `8ed63931ec0c6d6ebef88e456388309473e0d0fa` and `de3b91d398dd1e86c12ffbc5f5ce31db43c0908`; pull request #6 is open and requires one approving review. Latest push-event and PR-target language checks passed; protected integration and live verification remain pending.
-- [ ] Verify the updated live home, provenance page, all 77 image routes, and byte hashes after the Pages rebuild.
-- [x] Keep two reviewed source captures withheld because they show an unrelated provider identity or third-party item identifier that could not be verified as synthetic.
+- [x] Publish 16 inspected original images for inactive-attempt deletion and its Help article, source-bound to `8ed63931ec0c6d6ebef88e456388309473e0d0fa` and `de3b91d398dd1e86c12ffbc5f5ce31db43c0908`. PR #6 integrated at `cf835d390368ccd7d21e84f6d3ab008ec2be52db`; the public inventory now has 77 hash-verified image routes.
+- [x] Verify the live home and provenance page, all 77 image routes and hashes, and the exact About homepage after the Pages rebuild completed.
+- [x] Keep five source captures withheld: three settings views with provider-configuration values that could not be independently verified as safe, plus two earlier views with unverified third-party item identifiers.
 - [x] Read back the GitHub About homepage field and verify its exact value matches the deployed home URL.
 - [ ] Have the source project owner add the gallery link to the source README and verify it from the source repository after that work is integrated.
 
