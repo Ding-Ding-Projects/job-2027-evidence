@@ -1,7 +1,14 @@
-# Continue historical evidence publication checks
+# Job 2027 evidence gallery closeout
 
-PR #5 on the public evidence gallery, `https://github.com/Ding-Ding-Projects/job-2027-evidence/pull/5`, contains commit `133fdb89e8b862837528d24785db09c0c6e97473` on `codex/historical-workspace-evidence-20261023`. It adds 20 original historical workspace images from the reviewed private source inventory: 8 from `a44073e5d776fe9dd2606f8fe96720b7c89accaf` and 12 from `b022de6ba3a2bb03eb067e6a956991070ab6662e`. Every copied image matches its source SHA-256 and has been visually inspected. Public captions and records identify each image as historical, synthetic, and limited to the displayed state. The latest source build has no current captures, and no older image is presented as current.
+Task: add reviewed historical inactive-attempt deletion and Help article captures to the existing public gallery.
 
-Two source captures are withheld because they show unrelated provider identity or third-party item identifiers that could not be confirmed as synthetic. The existing open PR #4 on `ai/feature/20261021-current-evidence-update` remains untouched because its images are not present in the current source inventory. PR #5's pull-request `publication-language` run `40054896688` passed; its first push-event run `40054756808` failed before scanning because a new branch event has no previous base SHA. The protected merge remains pending until a new push-event check passes. After merge, verify the Pages build and all 61 image routes. The source project owner separately verifies the gallery link in the private source README.
+Task checkout: `ai/feature/20261030-job-gallery-refresh`
+Starting `main` SHA: `6de73f7ef63cf9842690abe8dee0e4209e08c7b6`
 
-Before completion, confirm the required `publication-language` check and review on the task PR, merge through the protected route, then verify the public main SHA, Pages build, home and provenance pages, all 61 image routes, original image hashes, and exact About homepage. The source project owner separately verifies the gallery link in the private source README. No product build or runtime is claimed.
+The 13 deletion workflow PNGs are bound to source `8ed63931ec0c6d6ebef88e456388309473e0d0fa`; the 3 Help PNGs are bound to source `de3b91d398dd1e86c12ffbc5f5ce31db43c0908`. They were copied byte for byte after visual inspection. Public metadata records image SHA-256, validated capture timestamp and timezone, dimensions, viewport, build manifest hash, synthetic data, and evidence limits. The earlier Help alternate remains identified as historical.
+
+Verified: exact root `build.bat` passed and assembled 77 images; the publication-language scan and git diff check passed after correction.
+
+Pending: commit and push this branch, integrate through the protected route, verify the Pages build, inspect the deployed home and provenance pages, verify all 77 image routes and hashes, and read back the exact About homepage. The deployed home URL is `https://ding-ding-projects.github.io/job-2027-evidence/`. No current-source, native Windows DPI, headless GUI input, installation, release or full visual-acceptance claim is made.
+
+Excluded: three provider/setup images withheld by the source review because their visible third-party identifiers could not be verified as synthetic; private source files, raw operational receipts, machine paths and credentials.
