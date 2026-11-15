@@ -25,6 +25,17 @@ The local pre-commit hook passed its publication-language scan with no findings.
 A genuine branch update supplied BASE_SHA=24a432d8296ef0ee7e87e37f6e08495a279e4ee3 for candidate 37e21d1d7098fe44293d887958a273a2316e5230. Run 43701760301 completed successfully with scope event-base-relative-history, historyProof=true, scannedRevisions=1, and findings=[]. The failed first-new-ref run remains recorded above.
 
 The local source now includes this recorded retry result. The follow-up documentation update is still not integrated or deployed; verify its own hosted scan, then continue to main and Pages checks.
+## 2026-11-15 live gallery verification
+
+Pull request #11 merged into main at 9ba1d32ace113ec051dea86f8cb81d096f264ecc. Publication-language run 43702916808 and Pages build 43702916258 completed successfully for that exact source. The public home, provenance page, and captures.json each returned HTTP 200. The live manifest contains 91 images, and all fourteen new image routes returned HTTP 200 with byte-for-byte SHA-256 matches to their reviewed originals. The About homepage reads back as https://ding-ding-projects.github.io/job-2027-evidence/.
+
+The visible product version remains unavailable. The public page has a JavaScript search handler but no visible search input; full regex search and broader site feature parity remain unverified.
+
+The static release section and changelog map version 2026.11.15 to Classic Har Gow · 蝦餃 and link the uploaded public photo, without copying it. The normal static ZIP release, exact source-target tag, downloadable asset hash, and final release readback remain pending.
+## Static gallery release
+
+Version 2026.11.15 is assigned the previously unused catalog code name Classic Har Gow · 蝦餃. The code name photo is linked from its public catalog release at https://github.com/Ding-Ding-Projects/dim-sum-photos/releases/download/catalog-v1/hk-dish-0001-classic-har-gow.png; the photo is not copied into this repository. A normal static ZIP release with tag gallery-2026.11.15 is pending, and this repository has no installable product.
+
 # Historical published-evidence record
 
 Earlier task handoffs remain below this line in version-control history.

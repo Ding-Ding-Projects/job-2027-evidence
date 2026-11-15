@@ -2,6 +2,8 @@
 
 ## Publication
 
+- [ ] Publish the normal 2026.11.15 static gallery release with a source-bound ZIP, code-name photo link, exact target SHA, and downloadable asset readback.
+
 - [x] Retry the publication-language history scan after the first-new-ref failure; run 43701760301 passed for source 37e21d1d7098fe44293d887958a273a2316e5230 with BASE_SHA 24a432d8296ef0ee7e87e37f6e08495a279e4ee3, one scanned revision, and no findings.
 
 - [x] Review the 2026-11-15 source capture candidates; publish only individually inspected, source-bound images and state that visible product version information is unavailable.
