@@ -2,7 +2,7 @@
 
 ## Publication
 
-- [ ] Read back a successful history scan after a genuine branch update; first-new-ref run 43700957904 stopped before scanning because BASE_SHA was all zero.
+- [x] Retry the publication-language history scan after the first-new-ref failure; run 43701760301 passed for source 37e21d1d7098fe44293d887958a273a2316e5230 with BASE_SHA 24a432d8296ef0ee7e87e37f6e08495a279e4ee3, one scanned revision, and no findings.
 
 - [x] Review the 2026-11-15 source capture candidates; publish only individually inspected, source-bound images and state that visible product version information is unavailable.
 - [x] Verify the existing public gallery on `main`: 41 manifest images returned HTTP 200 and matched their published SHA-256 values; the GitHub Pages source is `main:/docs`.

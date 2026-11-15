@@ -20,6 +20,11 @@ Before integration, run the required static-gallery build entrypoint to verify i
 The first task-branch push produced a red publication-language workflow before candidate scanning began. Run 43700957904 was bound to source commit 24a432d8296ef0ee7e87e37f6e08495a279e4ee3. The push event supplied BASE_SHA=0000000000000000000000000000000000000000, and the exact log line was: Event base publication is unknown. The job exited with code 2. No source-text finding was reported because the scan step was not reached.
 
 The local pre-commit hook passed its publication-language scan with no findings. A genuine follow-up branch update is needed to produce a valid event base; read back the next hosted scan result and require its actual terminal verdict before opening or merging a pull request. The live Pages content remains unchanged.
+## Follow-up publication-language run 43701760301
+
+A genuine branch update supplied BASE_SHA=24a432d8296ef0ee7e87e37f6e08495a279e4ee3 for candidate 37e21d1d7098fe44293d887958a273a2316e5230. Run 43701760301 completed successfully with scope event-base-relative-history, historyProof=true, scannedRevisions=1, and findings=[]. The failed first-new-ref run remains recorded above.
+
+The local source now includes this recorded retry result. The follow-up documentation update is still not integrated or deployed; verify its own hosted scan, then continue to main and Pages checks.
 # Historical published-evidence record
 
 Earlier task handoffs remain below this line in version-control history.
