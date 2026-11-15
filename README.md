@@ -13,3 +13,9 @@ Run `node scripts/build.mjs` to validate original image hashes and assemble the 
 ## Publication checks
 
 Install the maintainer-managed local tooling before contributing. Configure `git config core.hooksPath .githooks`. The commit and push hooks scan staged or outgoing source and fail closed when required protected rules are unavailable. The workflow uses a trusted scanner pinned by `PUBLICATION_SCAN_POLICY_SHA`, with rule data supplied through `PUBLICATION_LANGUAGE_DATA` in repository secrets. Hosted checks run after transmission; required branch protection is verified separately. These checks do not establish image-pixel privacy or rewrite historical records.
+
+## Latest release
+
+Version 2026.11.15 is identified by the code name Classic Har Gow · 蝦餃. The static gallery archive will be available at https://github.com/Ding-Ding-Projects/job-2027-evidence/releases/tag/gallery-2026.11.15. The public code-name photo is [Classic Har Gow · 蝦餃](https://github.com/Ding-Ding-Projects/dim-sum-photos/releases/download/catalog-v1/hk-dish-0001-classic-har-gow.png); it is linked from its public source and is not copied into this repository.
+
+This repository publishes a static gallery, not an installed application. An in-app About surface is not applicable. The visible product version remains unavailable.
