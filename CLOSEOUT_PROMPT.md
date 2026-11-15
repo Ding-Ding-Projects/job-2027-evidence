@@ -8,6 +8,6 @@ Prepared images: one extension run-controls view, eleven frontend workflow views
 
 The public homepage remains https://ding-ding-projects.github.io/job-2027-evidence/. This known URL does not prove the new image changes have deployed.
 
-Unverified: required build entrypoint, local publication-language scan, task-branch push, integration, Pages deployment, unauthenticated image responses, live image SHA-256 readback, and final homepage readback. Do not mark the publication complete until verified.
+Verified: the required build entrypoint passed, and the local pre-commit publication-language hook passed with no findings. Run 43700957904 failed before scanning because the first branch push supplied all-zero BASE_SHA; exact log: Event base publication is unknown. The next branch-update scan is pending. Integration, Pages deployment, unauthenticated image responses, live image SHA-256 readback, and final homepage readback remain unverified. Do not mark the publication complete until verified.
 
 Withheld: seven remaining extension candidates; three loopback-origin settings frames; two unaccepted Help article candidates; 341 source capture images absent from the public manifest; and native build images not reviewed for machine paths. Existing generated announcement images remain excluded. The source README backlink is already present and was read back by the source owner.

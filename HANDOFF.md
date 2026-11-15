@@ -15,6 +15,11 @@ The frontend workflow captures are bound to source revision 8c47293922eefc8fbf29
 Three unique frontend settings images containing a loopback API origin remain withheld. Seven remaining extension candidates, two unaccepted Help article candidates, 341 source images absent from the current manifest, and unreviewed native build image sets remain withheld with exact reasons in the provenance page. Existing generated announcement images remain excluded.
 
 Before integration, run the required static-gallery build entrypoint to verify image hashes, inspect the diff, and pass the publication-language scan. After Pages deploys, verify the home, provenance page, and all fourteen image routes without authentication; compare each live image SHA-256 with the manifest; read back the About homepage. The 2026-11-15 publication remains incomplete until those steps pass. The source README backlink already exists and was read back by the source owner.
+## Publication-language run 43700957904
+
+The first task-branch push produced a red publication-language workflow before candidate scanning began. Run 43700957904 was bound to source commit 24a432d8296ef0ee7e87e37f6e08495a279e4ee3. The push event supplied BASE_SHA=0000000000000000000000000000000000000000, and the exact log line was: Event base publication is unknown. The job exited with code 2. No source-text finding was reported because the scan step was not reached.
+
+The local pre-commit hook passed its publication-language scan with no findings. A genuine follow-up branch update is needed to produce a valid event base; read back the next hosted scan result and require its actual terminal verdict before opening or merging a pull request. The live Pages content remains unchanged.
 # Historical published-evidence record
 
 Earlier task handoffs remain below this line in version-control history.

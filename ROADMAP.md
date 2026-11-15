@@ -2,6 +2,8 @@
 
 ## Publication
 
+- [ ] Read back a successful history scan after a genuine branch update; first-new-ref run 43700957904 stopped before scanning because BASE_SHA was all zero.
+
 - [x] Review the 2026-11-15 source capture candidates; publish only individually inspected, source-bound images and state that visible product version information is unavailable.
 - [x] Verify the existing public gallery on `main`: 41 manifest images returned HTTP 200 and matched their published SHA-256 values; the GitHub Pages source is `main:/docs`.
 - [x] Add 20 historical workspace images from source commits `a44073e5d776fe9dd2606f8fe96720b7c89accaf` and `b022de6ba3a2bb03eb067e6a956991070ab6662e` with original bytes, inspected pixels, neutral captions, and per-image evidence limits. PR #5 is merged on `main`.
