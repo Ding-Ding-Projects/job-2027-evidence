@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "scope": "77 reviewed and historical gallery images. The newly reviewed set adds 13 inactive-attempt deletion captures and 3 Help article views. All new images are historical and source-bound.",
+  "scope": "91 reviewed and historical gallery images. This update adds fourteen original 2026-11-15 source-bound images: one run-controls view, eleven synthetic workflow views, and two companion views. Visible product version information remains unavailable; these images do not establish broad application acceptance.",
   "sourceState": "21520775aa46ef70751e24de7a6abab60ec1ab76",
   "builtArtifactSha256": "0f52233e316f201170cc50fc0a16c1d27adc66b4d754ea7203e01c4411dd8f0e",
   "viewport": {
@@ -2009,6 +2009,352 @@
       "sourceSet": "historical-help-de3b91d",
       "buildManifestSha256": "40c999cd845fe05b71df1ce1f556cea51b2fbc682c4073d3eb205e17ad11175d",
       "historical": true
+    },
+    {
+      "path": "captures/automation/run-controls-360.png",
+      "state": "stopped-run-controls-narrow",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:10:36.324022+00:00",
+      "sha256": "166a91ff71cc3435b0288502afe2256b707a560c691b9c3fbba02ca9e5a27b78",
+      "width": 360,
+      "height": 800,
+      "caption": "A narrow browser image shows run settings, filter controls, a stopped-or-paused state, and synthetic ledger entries.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 360,
+      "viewportHeight": 800,
+      "artifactId": "sha256:aff7467b6ec64c07d3d427af5f247ec7f5ca5b0b17ffa35f4f737ded5ea8ad8d",
+      "sourceCommit": "a0277e93c1e5b4aaecb696e843d5dbff52e2464e",
+      "sourceCaptureId": "run-controls-stopped-20261115",
+      "sourceSet": "one-click-ui-extension-a027",
+      "captureMethod": "Playwright browser page",
+      "limits": [
+        "One isolated browser state only; it does not establish a complete run, external action, persistence, or broader acceptance.",
+        "The visible product version is unavailable.",
+        "Physical display scaling is not recorded.",
+        "Only synthetic ledger entries are visible."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/jobs-wide-initial.png",
+      "state": "jobs-wide-initial",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:56:07.721920+00:00",
+      "sha256": "05dd21546e30a642f735d147e6d99c333da097e8dd46a68e1dae9f0ee0693662",
+      "width": 1440,
+      "height": 1000,
+      "caption": "The wide job list shows two synthetic opportunities, state filters, and list and calendar controls.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-jobs-wide-initial",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/jobs-narrow-initial.png",
+      "state": "jobs-narrow-initial",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:56:08.402181+00:00",
+      "sha256": "f15038facba2a23091500074741685b255209c8d1362b8c4bb7c3eadc36209ab",
+      "width": 360,
+      "height": 800,
+      "caption": "The narrow view shows synthetic opportunity cards and bottom navigation. The captured viewport does not show the full page.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 360,
+      "viewportHeight": 800,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-jobs-narrow-initial",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/job-detail-wide-initial.png",
+      "state": "job-detail-wide-initial",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:56:10.400883+00:00",
+      "sha256": "3319a7e7693b30e8e4cdd1250d86d55900f4deda12be275fc7dc1bcb3cc84ed7",
+      "width": 1440,
+      "height": 1000,
+      "caption": "A synthetic job detail shows job fields and an untracked application state.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-job-detail-wide-initial",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/help-wide-initial.png",
+      "state": "help-wide-initial",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:56:15.187951+00:00",
+      "sha256": "4f2432d874154f292316802b9bba8a02358ea4a7934c266130aafa00c5f6e26b",
+      "width": 1440,
+      "height": 1000,
+      "caption": "The Help view shows task guidance and visitor progress labels. The examples do not execute or verify the product.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-help-wide-initial",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/help-narrow-initial.png",
+      "state": "help-narrow-initial",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:56:15.822184+00:00",
+      "sha256": "8751029ca6b567f2270e3ada247dac29db50b2ec65cd5dcd7c83e9c2d9e70ba1",
+      "width": 360,
+      "height": 800,
+      "caption": "The narrow Help view shows the task guide home and bottom navigation; article content is not visible in this frame.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 360,
+      "viewportHeight": 800,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-help-narrow-initial",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/jobs-wide-verified.png",
+      "state": "jobs-wide-verified",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:59:07.308820+00:00",
+      "sha256": "3ea59935516773d7dccc4031267d85748c77442937a7e25a0aa7f2531274f8ed",
+      "width": 1440,
+      "height": 1000,
+      "caption": "The wide job list shows two synthetic opportunities with saved and untracked states.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-jobs-wide-verified",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/jobs-narrow-verified.png",
+      "state": "jobs-narrow-verified",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:59:07.933686+00:00",
+      "sha256": "3db6bdb069c4b23447a5fa231bae5d2bd45e01a2a4639fd27dffb8c5d65a3c65",
+      "width": 360,
+      "height": 800,
+      "caption": "The narrow job list shows synthetic opportunity states and bottom navigation; lower content extends beyond the captured viewport.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 360,
+      "viewportHeight": 800,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-jobs-narrow-verified",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/job-detail-wide-verified.png",
+      "state": "job-detail-wide-verified",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:59:09.996740+00:00",
+      "sha256": "019f57d3b7270952456446e1b8ce3a593a951342df6f6f60c9ee392d7a3d71c5",
+      "width": 1440,
+      "height": 1000,
+      "caption": "The job detail shows a synthetic saved state and blank application dates.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-job-detail-wide-verified",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/help-wide-guided-task.png",
+      "state": "help-wide-guided-task",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:59:21.056366+00:00",
+      "sha256": "8e799679943f0e0307401e7627ec4aa2aa2fe6a63e544276c72578a18b40a604",
+      "width": 1440,
+      "height": 1000,
+      "caption": "The wide Help view shows one guided task step and an example control. The example is not a product action.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-help-wide-guided-task",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/help-narrow-guided-task.png",
+      "state": "help-narrow-guided-task",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T08:59:21.678321+00:00",
+      "sha256": "cc6941a60f2defbdc29c733f139a2888846f2a74f6c4f1f1edde3b33aa937ed0",
+      "width": 360,
+      "height": 800,
+      "caption": "The narrow Help view shows the page header and bottom navigation; detailed article content is not visible.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 360,
+      "viewportHeight": 800,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-help-narrow-guided-task",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/workflow-20261115/jobs-wide-filtered.png",
+      "state": "jobs-wide-filtered",
+      "theme": "light",
+      "language": "English",
+      "capturedAt": "2026-11-15T09:02:37.862808+00:00",
+      "sha256": "273f09235043d45aa89544c6aa6903a0442dbc271702ef503ab4a4f65d96088b",
+      "width": 1440,
+      "height": 1000,
+      "caption": "The wide workspace shows one synthetic filtered result and the selected saved-stage filter.",
+      "deviceScaleFactor": 1,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "artifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4",
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "sourceCaptureId": "workflow-20261115-jobs-wide-filtered",
+      "sourceSet": "frontend-workflow-20261115",
+      "captureMethod": "Isolated Chromium browser capture",
+      "limits": [
+        "Synthetic profile and job data only.",
+        "Visible product version information is unavailable.",
+        "A screenshot shows one interface state and does not establish external actions, full runtime acceptance, or release behavior.",
+        "Physical display scaling is not recorded."
+      ]
+    },
+    {
+      "path": "captures/companions-20261115/setup-initial.png",
+      "state": "setup-initial",
+      "theme": "system-resolved-dark",
+      "language": "English",
+      "capturedAt": "2026-11-15T07:28:21.643442+00:00",
+      "sha256": "c05a3f2fb44ff018507b06a64312163e9b85332e4b6eb6ac7a5be85e734f8bd6",
+      "width": 1659,
+      "height": 1115,
+      "caption": "The setup surface shows its initial source-selection step without a selected local folder or completed setup.",
+      "nativeDpi": 144,
+      "artifactId": "sha256:f21e93a38fa3fde6bf2a6e2dfdc063fcc417d046a9bb0d245ff79d55e61d4bcf",
+      "applicationSha256": "cb82285c1e7ff26f20cd6eb39a474d7a3eee41732ff7646cfd1aa1f0c3872379",
+      "sourceCommit": "3519a28891aead46753d8b32405c6cde273ea51f",
+      "sourceCaptureId": "companion-20261115-setup-initial",
+      "sourceSet": "companion-captures-20261115",
+      "captureMethod": "Direct application capture",
+      "limits": [
+        "One initial companion state only; no completed setup or product operation is shown.",
+        "The displayed host, project, and account text is generic fixture copy with no selected values.",
+        "Physical display scaling is not inferred from native DPI."
+      ]
+    },
+    {
+      "path": "captures/companions-20261115/documentation-home.png",
+      "state": "documentation-home",
+      "theme": "system-resolved-dark",
+      "language": "English",
+      "capturedAt": "2026-11-15T07:28:25.769072+00:00",
+      "sha256": "3b6db26a80523b72e6d58a45ff97cd091038994111de72485ee7d8294ac202b5",
+      "width": 1659,
+      "height": 1115,
+      "caption": "The documentation companion shows a visitor checklist and progress controls. The checklist records visitor progress only.",
+      "nativeDpi": 144,
+      "artifactId": "sha256:072a094e8b2d1c46bb09e48d3f0a32b3e059add90ab37982038f8649bb827ad4",
+      "applicationSha256": "ffc77f086403d46039c0e6aa96cd6607bb4ebd0deff68a39b8ed004c9013ba05",
+      "sourceCommit": "3519a28891aead46753d8b32405c6cde273ea51f",
+      "sourceCaptureId": "companion-20261115-documentation-home",
+      "sourceSet": "companion-captures-20261115",
+      "captureMethod": "Direct application capture",
+      "limits": [
+        "One initial companion state only; no completed setup or product operation is shown.",
+        "The displayed host, project, and account text is generic fixture copy with no selected values.",
+        "Physical display scaling is not inferred from native DPI."
+      ]
     }
   ],
   "excluded": [
@@ -2031,6 +2377,34 @@
     {
       "class": "one account-setup preview",
       "reason": "A third-party item identifier in the visible state could not be verified as synthetic, so the image was withheld."
+    },
+    {
+      "class": "Seven remaining extension candidate images",
+      "count": 7,
+      "reason": "Some candidate frames may contain permission dialogs with local origins. Their pixels were not individually reviewed for this publication, so they remain withheld."
+    },
+    {
+      "class": "Three unique frontend settings images",
+      "count": 3,
+      "reason": "Each inspected frame shows a loopback API origin. The images remain withheld because the public-link boundary is unclear."
+    },
+    {
+      "class": "Two frontend Help article candidate records",
+      "count": 2,
+      "reason": "The original wide image bytes are unavailable after overwrite; the narrow image shows the header rather than article content and was not accepted as article evidence."
+    },
+    {
+      "class": "Source capture files absent from the current public inventory",
+      "count": 341,
+      "reason": "These images were not individually reviewed for publication and remain withheld."
+    },
+    {
+      "class": "Native build capture sets",
+      "reason": "These images were not reviewed for machine-path exposure; none is included."
+    },
+    {
+      "class": "Login or secret-entry capture sets not individually reviewed for this update",
+      "reason": "No such image was selected. Images with visible credentials, masks, or unverified account values remain outside the publication."
     }
   ],
   "withheldHistorical": [
@@ -2115,7 +2489,7 @@
       "reason": "Historical built state superseded by later reviewed workspace images; original and provenance remain in the source capture archive and are not republished in this gallery update."
     }
   ],
-  "currentCaptureStatus": "No built/current captures were available for the latest source build reviewed for this update. All application captures in this gallery are historical.",
+  "currentCaptureStatus": "Fourteen 2026-11-15 images are source-bound to revisions a0277e93c1e5b4aaecb696e843d5dbff52e2464e, 8c47293922eefc8fbf2974f14aca9d85740144de, and 3519a28891aead46753d8b32405c6cde273ea51f with their recorded package or application digests. The frontend version remains unavailable. These images show individual synthetic states only and do not establish broad product acceptance.",
   "withheld": [
     {
       "category": "provider identity setup image",
@@ -2124,6 +2498,34 @@
     {
       "category": "companion setup image",
       "reason": "Outside the workspace evidence scope; its visible third-party item identifier could not be confirmed as synthetic."
+    },
+    {
+      "category": "remaining extension candidate images",
+      "count": 7,
+      "reason": "Potential local origins in permission-dialog pixels were not individually reviewed."
+    },
+    {
+      "category": "frontend settings frames with a loopback origin",
+      "count": 3,
+      "reason": "The link boundary is unclear, so all three unique images are withheld."
+    },
+    {
+      "category": "unaccepted frontend Help article candidates",
+      "count": 2,
+      "reason": "The wide original bytes are unavailable; the narrow image does not show article content."
+    },
+    {
+      "category": "source capture images absent from the public inventory",
+      "count": 341,
+      "reason": "Not individually reviewed."
+    },
+    {
+      "category": "native build captures",
+      "reason": "Not reviewed for machine-path exposure; none is included."
+    },
+    {
+      "category": "unreviewed login or secret-entry captures",
+      "reason": "No such image was selected; any unreviewed values remain withheld."
     }
   ],
   "reviewedSourceSets": [
@@ -2156,7 +2558,28 @@
       "sourceCommit": null,
       "captureCount": 4,
       "status": "artifact-digest-only color-plane previews; source commit unavailable"
+    },
+    {
+      "sourceCommit": "a0277e93c1e5b4aaecb696e843d5dbff52e2464e",
+      "captureCount": 1,
+      "status": "one isolated browser run-controls view; synthetic entries; visible version unavailable",
+      "sourceArtifactId": "sha256:aff7467b6ec64c07d3d427af5f247ec7f5ca5b0b17ffa35f4f737ded5ea8ad8d"
+    },
+    {
+      "sourceCommit": "8c47293922eefc8fbf2974f14aca9d85740144de",
+      "captureCount": 11,
+      "status": "eleven unique isolated-browser workflow views using synthetic profile and job data; visible version unavailable",
+      "sourceArtifactId": "sha256:84be44f8d41510a5d39cf05e4e7565494821835cf8132ac485af170ee1f244b4"
+    },
+    {
+      "sourceCommit": "3519a28891aead46753d8b32405c6cde273ea51f",
+      "captureCount": 2,
+      "status": "two inspected initial companion views; no selected path, hostname, account value, or completed operation",
+      "sourceArtifactIds": [
+        "sha256:f21e93a38fa3fde6bf2a6e2dfdc063fcc417d046a9bb0d245ff79d55e61d4bcf",
+        "sha256:072a094e8b2d1c46bb09e48d3f0a32b3e059add90ab37982038f8649bb827ad4"
+      ]
     }
   ],
-  "sourceStateScope": "The top-level sourceState applies only to the three historical documentation companion images. Other source-bound images carry their own sourceCommit values."
+  "sourceStateScope": "The top-level sourceState applies only to the three historical documentation companion images. Other source-bound images carry their own sourceCommit values. The 2026-11-15 workflow, run-controls, and companion records each carry their own source revision and artifact digest."
 }

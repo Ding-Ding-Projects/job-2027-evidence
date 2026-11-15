@@ -1,12 +1,13 @@
 # Job 2027 evidence gallery closeout
 
-Task: publish the reviewed historical inactive-attempt deletion and Help captures.
+Task: publish fourteen reviewed original source-bound images in the existing public gallery.
 
-Task identifier: `ai/feature/20261030-job-gallery-refresh`
-Gallery PR #6: integrated into `main` at `cf835d390368ccd7d21e84f6d3ab008ec2be52db`.
+Task branch: ai/feature/20261115-ui-gallery, based on fetched origin/main at 734f2ae5a31c2e2e4de453c2365798eadf522981.
 
-The live gallery has 77 original PNGs: the previous 61 and 16 new source-bound captures. The deletion set is bound to `8ed63931ec0c6d6ebef88e456388309473e0d0fa`; the Help set is bound to `de3b91d398dd1e86c12ffbc5f5ce31db43c0908`. The prior Help alternate is labeled historical. Full per-image hashes and limits are in `docs/captures.json`.
+Prepared images: one extension run-controls view, eleven frontend workflow views, and two setup/documentation companion views. Original PNG bytes are retained. The manifest now contains 91 entries. Exact hashes, source revisions, timestamps, dimensions, artifacts, and per-image limits are in docs/captures.json.
 
-Verified: root `build.bat` passed; local publication-language scan passed; latest hosted language checks passed; Pages build `41095311534` completed; live home and provenance returned HTTP 200; all 77 routes matched the manifest SHA-256 values; About homepage is `https://ding-ding-projects.github.io/job-2027-evidence/`.
+The public homepage remains https://ding-ding-projects.github.io/job-2027-evidence/. This known URL does not prove the new image changes have deployed.
 
-Still unverified: rendered layout, keyboard accessibility, and interactive documentation behavior. The source README backlink remains parent-owned. Five reviewed captures are withheld because three settings views contain provider-configuration values that could not be independently verified as safe, and two earlier views contain third-party item identifiers that could not be confirmed as synthetic. No current-source or native DPI claim is made.
+Unverified: required build entrypoint, local publication-language scan, task-branch push, integration, Pages deployment, unauthenticated image responses, live image SHA-256 readback, and final homepage readback. Do not mark the publication complete until verified.
+
+Withheld: seven remaining extension candidates; three loopback-origin settings frames; two unaccepted Help article candidates; 341 source capture images absent from the public manifest; and native build images not reviewed for machine paths. Existing generated announcement images remain excluded. The source README backlink is already present and was read back by the source owner.
